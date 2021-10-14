@@ -1,0 +1,234 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "",
+    "width": "container",
+    "data": {
+        "url": "https://raw.githubusercontent.com/ychu0045/Vis2/main/data/monthly_difference.csv"
+    },
+    "params": [
+        {
+            "name": "state_selection",
+            "bind": {
+                "input": "select",
+                "options": [
+                    null,
+                    "Johor",
+                    "Kedah",
+                    "Kelantan",
+                    "Malacca",
+                    "Negeri Sembilan",
+                    "Pahang",
+                    "Perak",
+                    "Perlis",
+                    "Penang",
+                    "Sabah",
+                    "Sarawak",
+                    "Selangor",
+                    "Terengganu",
+                    "Kuala Lumpur",
+                    "Labuan",
+                    "Putrajaya"
+                ],
+                "labels": [
+                    "Malaysia",
+                    "Johor",
+                    "Kedah",
+                    "Kelantan",
+                    "Malacca",
+                    "Negeri Sembilan",
+                    "Pahang",
+                    "Perak",
+                    "Perlis",
+                    "Penang",
+                    "Sabah",
+                    "Sarawak",
+                    "Selangor",
+                    "Terengganu",
+                    "Kuala Lumpur",
+                    "Labuan",
+                    "Putrajaya"
+                ],
+                "name": "State: "
+            }
+        },
+        {
+            "name": "statistics_selection",
+            "value": "cases",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "cases",
+                    "deaths"
+                ],
+                "labels": [
+                    "Cases",
+                    "Deaths"
+                ],
+                "name": "Statistics: "
+            }
+        }
+    ],
+    "transform": [
+        {
+            "filter": "(state_selection == null && datum.state == 'Malaysia') || datum.state == state_selection"
+        },
+        {
+            "filter": "datum.remark === statistics_selection"
+        },
+        {
+            "window": [
+                {
+                    "op": "sum",
+                    "field": "difference",
+                    "as": "sum"
+                }
+            ]
+        },
+        {
+            "window": [
+                {
+                    "op": "lead",
+                    "field": "date",
+                    "as": "lead"
+                }
+            ]
+        },
+        {
+            "calculate": "datum.lead === null ? datum.date : datum.lead",
+            "as": "lead"
+        },
+        {
+            "calculate": "datum.date === 'End' ? 0 : datum.sum - datum.difference",
+            "as": "previous_sum"
+        },
+        {
+            "calculate": "datum.sum <= datum.previous_sum ? datum.previous_sum : ''",
+            "as": "sum_dec"
+        },
+        {
+            "calculate": "datum.sum > datum.previous_sum ? datum.sum : ''",
+            "as": "sum_inc"
+        }
+    ],
+    "encoding": {
+        "x": {
+            "field": "date",
+            "type": "nominal",
+            "title": "Month",
+            "sort": null
+        },
+        "tooltip": [
+            {
+                "field": "date",
+                "type": "nominal",
+                "title": "Month"
+            },
+            {
+                "field": "cases_deaths",
+                "type": "quantitative",
+                "title": "Total"
+            },
+            {
+                "field": "difference",
+                "type": "quantitative",
+                "title": "Increment"
+            }
+        ]
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "bar"
+            },
+            "encoding": {
+                "y": {
+                    "field": "previous_sum",
+                    "type": "quantitative",
+                    "title": "Total"
+                },
+                "y2": {
+                    "field": "sum"
+                },
+                "color": {
+                    "condition": [
+                        {
+                            "test": "datum.date === '2021-01-01' || datum.date === 'End'",
+                            "value": "#ffffb3"
+                        },
+                        {
+                            "test": "datum.sum < datum.previous_sum",
+                            "value": "#c0b4af"
+                        }
+                    ],
+                    "value": "#df3a10"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "rule",
+                "xOffset": -9,
+                "x2Offset": 9
+            },
+            "encoding": {
+                "x2": {
+                    "field": "lead"
+                },
+                "y": {
+                    "field": "sum",
+                    "type": "quantitative"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "baseline": "bottom",
+                "dy": -2,
+                "fontSize": 5
+            },
+            "encoding": {
+                "y": {
+                    "field": "sum_inc",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "condition": [
+                        {
+                            "test": "datum.date === 'End'",
+                            "field": "sum_inc"
+                        },
+                        {
+                            "test": "datum.difference <= 0",
+                            "value": ""
+                        }
+                    ],
+                    "field": "difference",
+                    "type": "nominal"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "baseline": "bottom",
+                "dy": -2,
+                "fontSize": 5
+            },
+            "encoding": {
+                "y": {
+                    "field": "sum_dec",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "condition": {
+                        "test": "datum.date === 'End' || datum.difference > 0",
+                        "value": ""
+                    },
+                    "field": "difference",
+                    "type": "nominal"
+                }
+            }
+        }
+    ]
+}

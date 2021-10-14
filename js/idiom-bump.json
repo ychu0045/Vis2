@@ -1,0 +1,126 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.1.0.json",
+    "title": "",
+    "width": "container",
+    "data": {
+        "url": "https://raw.githubusercontent.com/ychu0045/Vis2/main/data/monthly_rank.csv"
+    },
+    "params": [
+        {
+            "name": "statistics_selection",
+            "value": "cases",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "cases",
+                    "deaths"
+                ],
+                "labels": [
+                    "Cases",
+                    "Deaths"
+                ],
+                "name": "Statistics: "
+            }
+        }
+    ],
+    "transform": [
+        {
+            "filter": "datum.remark === statistics_selection"
+        }
+    ],
+    "encoding": {
+        "x": {
+            "field": "date",
+            "type": "ordinal",
+            "title": "Month",
+            "sort": null
+        },
+        "y": {
+            "field": "rank",
+            "type": "quantitative",
+            "title": "Rank",
+            "sort": "descending"
+        }
+    },
+    "layer": [
+        {
+            "params": [
+                {
+                    "name": "state_selection",
+                    "select": {
+                        "type": "point",
+                        "on": "click",
+                        "fields": [
+                            "state"
+                        ]
+                    },
+                    "bind": "legend"
+                }
+            ],
+            "mark": {
+                "type": "line",
+                "interpolate": "monotone"
+            },
+            "encoding": {
+                "color": {
+                    "field": "state",
+                    "type": "nominal",
+                    "scale": {
+                        "scheme": "tableau20"
+                    },
+                    "legend": {
+                        "title": "State"
+                    }
+                },
+                "size": {
+                    "condition": {
+                        "param": "state_selection",
+                        "empty": false,
+                        "value": 3
+                    },
+                    "value": 1
+                },
+                "opacity": {
+                    "condition": {
+                        "param": "state_selection",
+                        "value": 1.0
+                    },
+                    "value": 0.2
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "tick",
+                "thickness": 5
+            },
+            "encoding": {
+                "color": {
+                    "condition": {
+                        "param": "state_selection",
+                        "empty": false,
+                        "value": "black"
+                    },
+                    "field": "state"
+                },
+                "tooltip": [
+                    {
+                        "field": "state",
+                        "type": "nominal",
+                        "title": "State"
+                    },
+                    {
+                        "field": "date",
+                        "type": "nominal",
+                        "title": "Month"
+                    },
+                    {
+                        "field": "cases_deaths",
+                        "type": "quantitative",
+                        "title": "Total"
+                    }
+                ]
+            }
+        }
+    ]
+}

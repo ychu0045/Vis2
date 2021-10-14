@@ -1,0 +1,140 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "",
+    "width": "container",
+    "projection": {
+        "type": "equalEarth"
+    },
+    "data": {
+        "url": "https://raw.githubusercontent.com/ychu0045/Vis2/main/data/cumulative_cases_deaths.csv"
+    },
+    "params": [
+        {
+            "name": "statistics_selection",
+            "value": "cases",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "cases",
+                    "deaths"
+                ],
+                "labels": [
+                    "Cases",
+                    "Deaths"
+                ],
+                "name": "Statistics: "
+            }
+        }
+    ],
+    "transform": [
+        {
+            "filter": "datum.remark === statistics_selection"
+        },
+        {
+            "lookup": "state",
+            "from": {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/ychu0045/Week9/main/js/malaysia_singapore_brunei_administrative_malaysia_state_province_boundary.json",
+                    "format": {
+                        "type": "topojson",
+                        "feature": "malaysia_singapore_brunei_administrative_malaysia_state_province_boundary"
+                    }
+                },
+                "key": "properties.name"
+            },
+            "as": "geo"
+        },
+        {
+            "calculate": "datum.cases_deaths/datum.population * 10000",
+            "as": "normalised_per_10K"
+        }
+    ],
+    "layer": [
+        {
+            "mark": {
+                "type": "geoshape",
+                "stroke": "white"
+            },
+            "encoding": {
+                "shape": {
+                    "field": "geo",
+                    "type": "geojson"
+                },
+                "color": {
+                    "field": "normalised_per_10K",
+                    "type": "quantitative",
+                    "scale": {
+                        "scheme": "lightgreyred"
+                    },
+                    "legend": {
+                        "title": "Number per 10K people",
+                        "orient": "bottom"
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "state",
+                        "type": "nominal",
+                        "title": "State"
+                    },
+                    {
+                        "field": "cases_deaths",
+                        "type": "quantitative",
+                        "title": "Running total"
+                    },
+                    {
+                        "field": "normalised_per_10K",
+                        "type": "quantitative",
+                        "title": "Number per 10K people",
+                        "format": ".2f"
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+                "url": "https://raw.githubusercontent.com/ychu0045/Visualisation2/main/data/capital_state.csv"
+            },
+            "encoding": {
+                "latitude": {
+                    "field": "latitude",
+                    "type": "quantitative"
+                },
+                "longitude": {
+                    "field": "longitude",
+                    "type": "quantitative"
+                }
+            },
+            "layer": [
+                {
+                    "mark": {
+                        "type": "circle",
+                        "fill": null,
+                        "stroke": "black"
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "text",
+                        "align": {
+                            "expr": "datum.capital === 'Kota Bharu' || datum.capital === 'Kuala Terengganu' || datum.capital === 'Kuantan' || datum.capital === 'Kuala Lumpur' ? 'left' : 'right'"
+                        },
+                        "dx": {
+                            "expr": "datum.capital === 'Kota Bharu' || datum.capital === 'Kuala Terengganu' || datum.capital === 'Kuantan' || datum.capital === 'Kuala Lumpur' ? 8 : -8"
+                        },
+                        "dy": {
+                            "expr": "(datum.capital === 'Shah Alam' ? -3 : 0) || (datum.capital === 'Seremban' ? 3 : 0)"
+                        },
+                        "fontSize": 8
+                    },
+                    "encoding": {
+                        "text": {
+                            "field": "capital",
+                            "type": "nominal"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
