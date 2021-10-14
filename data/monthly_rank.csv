@@ -1,0 +1,673 @@
+date,state,cases_deaths,rank,remark
+Jan 2020,Johor,7,1,cases
+Jan 2020,Kedah,1,2,cases
+Jan 2020,Kelantan,0,3,cases
+Jan 2020,Malacca,0,3,cases
+Jan 2020,Negeri Sembilan,0,3,cases
+Jan 2020,Pahang,0,3,cases
+Jan 2020,Perak,0,3,cases
+Jan 2020,Perlis,0,3,cases
+Jan 2020,Penang,0,3,cases
+Jan 2020,Sabah,0,3,cases
+Jan 2020,Sarawak,0,3,cases
+Jan 2020,Selangor,0,3,cases
+Jan 2020,Terengganu,0,3,cases
+Jan 2020,Kuala Lumpur,0,3,cases
+Jan 2020,Labuan,0,3,cases
+Jan 2020,Putrajaya,0,3,cases
+Feb 2020,Johor,1,5,cases
+Feb 2020,Kedah,2,3,cases
+Feb 2020,Kelantan,0,6,cases
+Feb 2020,Malacca,0,6,cases
+Feb 2020,Negeri Sembilan,2,3,cases
+Feb 2020,Pahang,0,6,cases
+Feb 2020,Perak,0,6,cases
+Feb 2020,Perlis,0,6,cases
+Feb 2020,Penang,0,6,cases
+Feb 2020,Sabah,0,6,cases
+Feb 2020,Sarawak,0,6,cases
+Feb 2020,Selangor,7,1,cases
+Feb 2020,Terengganu,0,6,cases
+Feb 2020,Kuala Lumpur,5,2,cases
+Feb 2020,Labuan,0,6,cases
+Feb 2020,Putrajaya,0,6,cases
+Mar 2020,Johor,343,3,cases
+Mar 2020,Kedah,74,11,cases
+Mar 2020,Kelantan,131,8,cases
+Mar 2020,Malacca,52,12,cases
+Mar 2020,Negeri Sembilan,179,6,cases
+Mar 2020,Pahang,102,9,cases
+Mar 2020,Perak,189,5,cases
+Mar 2020,Perlis,13,15,cases
+Mar 2020,Penang,93,10,cases
+Mar 2020,Sabah,206,4,cases
+Mar 2020,Sarawak,156,7,cases
+Mar 2020,Selangor,692,1,cases
+Mar 2020,Terengganu,47,13,cases
+Mar 2020,Kuala Lumpur,427,2,cases
+Mar 2020,Labuan,10,16,cases
+Mar 2020,Putrajaya,27,14,cases
+Apr 2020,Johor,312,5,cases
+Apr 2020,Kedah,18,14,cases
+Apr 2020,Kelantan,24,13,cases
+Apr 2020,Malacca,146,7,cases
+Apr 2020,Negeri Sembilan,332,4,cases
+Apr 2020,Pahang,192,6,cases
+Apr 2020,Perak,64,9,cases
+Apr 2020,Perlis,5,16,cases
+Apr 2020,Penang,27,12,cases
+Apr 2020,Sabah,109,8,cases
+Apr 2020,Sarawak,351,3,cases
+Apr 2020,Selangor,733,2,cases
+Apr 2020,Terengganu,63,10,cases
+Apr 2020,Kuala Lumpur,800,1,cases
+Apr 2020,Labuan,6,15,cases
+Apr 2020,Putrajaya,54,11,cases
+May 2020,Johor,12,9,cases
+May 2020,Kedah,1,11,cases
+May 2020,Kelantan,1,11,cases
+May 2020,Malacca,21,7,cases
+May 2020,Negeri Sembilan,345,3,cases
+May 2020,Pahang,67,4,cases
+May 2020,Perak,3,10,cases
+May 2020,Perlis,0,15,cases
+May 2020,Penang,1,11,cases
+May 2020,Sabah,31,6,cases
+May 2020,Sarawak,45,5,cases
+May 2020,Selangor,477,2,cases
+May 2020,Terengganu,1,11,cases
+May 2020,Kuala Lumpur,796,1,cases
+May 2020,Labuan,0,15,cases
+May 2020,Putrajaya,16,8,cases
+Jun 2020,Johor,16,7,cases
+Jun 2020,Kedah,1,10,cases
+Jun 2020,Kelantan,1,10,cases
+Jun 2020,Malacca,37,4,cases
+Jun 2020,Negeri Sembilan,167,2,cases
+Jun 2020,Pahang,4,8,cases
+Jun 2020,Perak,2,9,cases
+Jun 2020,Perlis,0,13,cases
+Jun 2020,Penang,0,13,cases
+Jun 2020,Sabah,26,5,cases
+Jun 2020,Sarawak,19,6,cases
+Jun 2020,Selangor,138,3,cases
+Jun 2020,Terengganu,0,13,cases
+Jun 2020,Kuala Lumpur,408,1,cases
+Jun 2020,Labuan,1,10,cases
+Jun 2020,Putrajaya,0,13,cases
+Jul 2020,Johor,51,3,cases
+Jul 2020,Kedah,12,6,cases
+Jul 2020,Kelantan,3,10,cases
+Jul 2020,Malacca,2,12,cases
+Jul 2020,Negeri Sembilan,4,8,cases
+Jul 2020,Pahang,5,7,cases
+Jul 2020,Perak,4,8,cases
+Jul 2020,Perlis,1,14,cases
+Jul 2020,Penang,0,16,cases
+Jul 2020,Sabah,26,5,cases
+Jul 2020,Sarawak,107,1,cases
+Jul 2020,Selangor,75,2,cases
+Jul 2020,Terengganu,3,10,cases
+Jul 2020,Kuala Lumpur,41,4,cases
+Jul 2020,Labuan,2,12,cases
+Jul 2020,Putrajaya,1,14,cases
+Aug 2020,Johor,9,8,cases
+Aug 2020,Kedah,107,2,cases
+Aug 2020,Kelantan,0,14,cases
+Aug 2020,Malacca,4,11,cases
+Aug 2020,Negeri Sembilan,5,10,cases
+Aug 2020,Pahang,0,14,cases
+Aug 2020,Perak,7,9,cases
+Aug 2020,Perlis,13,7,cases
+Aug 2020,Penang,15,6,cases
+Aug 2020,Sabah,19,5,cases
+Aug 2020,Sarawak,21,4,cases
+Aug 2020,Selangor,48,3,cases
+Aug 2020,Terengganu,0,14,cases
+Aug 2020,Kuala Lumpur,111,1,cases
+Aug 2020,Labuan,4,11,cases
+Aug 2020,Putrajaya,1,13,cases
+Sep 2020,Johor,16,5,cases
+Sep 2020,Kedah,151,2,cases
+Sep 2020,Kelantan,4,12,cases
+Sep 2020,Malacca,4,12,cases
+Sep 2020,Negeri Sembilan,15,6,cases
+Sep 2020,Pahang,9,8,cases
+Sep 2020,Perak,2,15,cases
+Sep 2020,Perlis,4,12,cases
+Sep 2020,Penang,8,9,cases
+Sep 2020,Sabah,1460,1,cases
+Sep 2020,Sarawak,14,7,cases
+Sep 2020,Selangor,100,3,cases
+Sep 2020,Terengganu,6,10,cases
+Sep 2020,Kuala Lumpur,85,4,cases
+Sep 2020,Labuan,5,11,cases
+Sep 2020,Putrajaya,1,16,cases
+Oct 2020,Johor,139,10,cases
+Oct 2020,Kedah,1757,3,cases
+Oct 2020,Kelantan,16,14,cases
+Oct 2020,Malacca,45,13,cases
+Oct 2020,Negeri Sembilan,558,5,cases
+Oct 2020,Pahang,15,15,cases
+Oct 2020,Perak,240,8,cases
+Oct 2020,Perlis,2,16,cases
+Oct 2020,Penang,850,4,cases
+Oct 2020,Sabah,13171,1,cases
+Oct 2020,Sarawak,168,9,cases
+Oct 2020,Selangor,2429,2,cases
+Oct 2020,Terengganu,74,11,cases
+Oct 2020,Kuala Lumpur,372,7,cases
+Oct 2020,Labuan,441,6,cases
+Oct 2020,Putrajaya,47,12,cases
+Nov 2020,Johor,473,8,cases
+Nov 2020,Kedah,439,9,cases
+Nov 2020,Kelantan,180,11,cases
+Nov 2020,Malacca,76,12,cases
+Nov 2020,Negeri Sembilan,3308,3,cases
+Nov 2020,Pahang,9,15,cases
+Nov 2020,Perak,1274,5,cases
+Nov 2020,Perlis,5,16,cases
+Nov 2020,Penang,1094,6,cases
+Nov 2020,Sabah,13723,1,cases
+Nov 2020,Sarawak,183,10,cases
+Nov 2020,Selangor,9235,2,cases
+Nov 2020,Terengganu,43,14,cases
+Nov 2020,Kuala Lumpur,3162,4,cases
+Nov 2020,Labuan,887,7,cases
+Nov 2020,Putrajaya,58,13,cases
+Dec 2020,Johor,4355,4,cases
+Dec 2020,Kedah,461,10,cases
+Dec 2020,Kelantan,398,11,cases
+Dec 2020,Malacca,838,9,cases
+Dec 2020,Negeri Sembilan,2913,5,cases
+Dec 2020,Pahang,962,8,cases
+Dec 2020,Perak,1410,6,cases
+Dec 2020,Perlis,3,16,cases
+Dec 2020,Penang,1400,7,cases
+Dec 2020,Sabah,8269,2,cases
+Dec 2020,Sarawak,53,15,cases
+Dec 2020,Selangor,18461,1,cases
+Dec 2020,Terengganu,88,13,cases
+Dec 2020,Kuala Lumpur,7280,3,cases
+Dec 2020,Labuan,345,12,cases
+Dec 2020,Putrajaya,77,14,cases
+Jan 2021,Johor,15824,2,cases
+Jan 2021,Kedah,2762,9,cases
+Jan 2021,Kelantan,2493,10,cases
+Jan 2021,Malacca,2350,11,cases
+Jan 2021,Negeri Sembilan,3822,6,cases
+Jan 2021,Pahang,1619,13,cases
+Jan 2021,Perak,2912,8,cases
+Jan 2021,Perlis,130,16,cases
+Jan 2021,Penang,4360,5,cases
+Jan 2021,Sabah,11828,4,cases
+Jan 2021,Sarawak,3333,7,cases
+Jan 2021,Selangor,35541,1,cases
+Jan 2021,Terengganu,1817,12,cases
+Jan 2021,Kuala Lumpur,12112,3,cases
+Jan 2021,Labuan,446,15,cases
+Jan 2021,Putrajaya,600,14,cases
+Feb 2021,Johor,14399,2,cases
+Feb 2021,Kedah,1825,10,cases
+Feb 2021,Kelantan,1631,11,cases
+Feb 2021,Malacca,2400,9,cases
+Feb 2021,Negeri Sembilan,4159,6,cases
+Feb 2021,Pahang,804,13,cases
+Feb 2021,Perak,5114,4,cases
+Feb 2021,Perlis,36,16,cases
+Feb 2021,Penang,3640,8,cases
+Feb 2021,Sabah,4018,7,cases
+Feb 2021,Sarawak,5095,5,cases
+Feb 2021,Selangor,31959,1,cases
+Feb 2021,Terengganu,1054,12,cases
+Feb 2021,Kuala Lumpur,9372,3,cases
+Feb 2021,Labuan,106,15,cases
+Feb 2021,Putrajaya,181,14,cases
+Mar 2021,Johor,5298,3,cases
+Mar 2021,Kedah,824,10,cases
+Mar 2021,Kelantan,1368,9,cases
+Mar 2021,Malacca,567,11,cases
+Mar 2021,Negeri Sembilan,1459,8,cases
+Mar 2021,Pahang,478,12,cases
+Mar 2021,Perak,1745,7,cases
+Mar 2021,Perlis,118,14,cases
+Mar 2021,Penang,4581,4,cases
+Mar 2021,Sabah,1881,6,cases
+Mar 2021,Sarawak,6845,2,cases
+Mar 2021,Selangor,16185,1,cases
+Mar 2021,Terengganu,397,13,cases
+Mar 2021,Kuala Lumpur,2847,5,cases
+Mar 2021,Labuan,75,16,cases
+Mar 2021,Putrajaya,80,15,cases
+Apr 2021,Johor,4122,5,cases
+Apr 2021,Kedah,1489,9,cases
+Apr 2021,Kelantan,7582,3,cases
+Apr 2021,Malacca,832,12,cases
+Apr 2021,Negeri Sembilan,1482,10,cases
+Apr 2021,Pahang,912,11,cases
+Apr 2021,Perak,1783,8,cases
+Apr 2021,Perlis,34,16,cases
+Apr 2021,Penang,3737,6,cases
+Apr 2021,Sabah,3369,7,cases
+Apr 2021,Sarawak,14269,2,cases
+Apr 2021,Selangor,16812,1,cases
+Apr 2021,Terengganu,600,13,cases
+Apr 2021,Kuala Lumpur,5836,4,cases
+Apr 2021,Labuan,125,15,cases
+Apr 2021,Putrajaya,229,14,cases
+May 2021,Johor,13006,5,cases
+May 2021,Kedah,8985,6,cases
+May 2021,Kelantan,13956,4,cases
+May 2021,Malacca,4712,10,cases
+May 2021,Negeri Sembilan,7555,8,cases
+May 2021,Pahang,4399,12,cases
+May 2021,Perak,5885,9,cases
+May 2021,Perlis,147,16,cases
+May 2021,Penang,8820,7,cases
+May 2021,Sabah,4108,13,cases
+May 2021,Sarawak,16670,2,cases
+May 2021,Selangor,54036,1,cases
+May 2021,Terengganu,4578,11,cases
+May 2021,Kuala Lumpur,14998,3,cases
+May 2021,Labuan,1269,14,cases
+May 2021,Putrajaya,520,15,cases
+Jun 2021,Johor,12441,5,cases
+Jun 2021,Kedah,6360,8,cases
+Jun 2021,Kelantan,7023,7,cases
+Jun 2021,Malacca,6329,9,cases
+Jun 2021,Negeri Sembilan,18575,3,cases
+Jun 2021,Pahang,4089,13,cases
+Jun 2021,Perak,5994,10,cases
+Jun 2021,Perlis,83,16,cases
+Jun 2021,Penang,5869,11,cases
+Jun 2021,Sabah,7201,6,cases
+Jun 2021,Sarawak,17522,4,cases
+Jun 2021,Selangor,61825,1,cases
+Jun 2021,Terengganu,2430,14,cases
+Jun 2021,Kuala Lumpur,19024,2,cases
+Jun 2021,Labuan,4447,12,cases
+Jun 2021,Putrajaya,410,15,cases
+Jul 2021,Johor,19859,5,cases
+Jul 2021,Kedah,20362,4,cases
+Jul 2021,Kelantan,8183,12,cases
+Jul 2021,Malacca,12951,7,cases
+Jul 2021,Negeri Sembilan,26611,3,cases
+Jul 2021,Pahang,10770,11,cases
+Jul 2021,Perak,11051,10,cases
+Jul 2021,Perlis,110,16,cases
+Jul 2021,Penang,11338,9,cases
+Jul 2021,Sabah,15276,6,cases
+Jul 2021,Sarawak,11877,8,cases
+Jul 2021,Selangor,158668,1,cases
+Jul 2021,Terengganu,5747,13,cases
+Jul 2021,Kuala Lumpur,45349,2,cases
+Jul 2021,Labuan,1492,15,cases
+Jul 2021,Putrajaya,1649,14,cases
+Aug 2021,Johor,47964,5,cases
+Aug 2021,Kedah,53411,3,cases
+Aug 2021,Kelantan,34532,8,cases
+Aug 2021,Malacca,17192,12,cases
+Aug 2021,Negeri Sembilan,19985,10,cases
+Aug 2021,Pahang,19697,11,cases
+Aug 2021,Perak,30414,9,cases
+Aug 2021,Perlis,1250,15,cases
+Aug 2021,Penang,40658,6,cases
+Aug 2021,Sabah,63122,2,cases
+Aug 2021,Sarawak,39830,7,cases
+Aug 2021,Selangor,196576,1,cases
+Aug 2021,Terengganu,16544,13,cases
+Aug 2021,Kuala Lumpur,50212,4,cases
+Aug 2021,Labuan,148,16,cases
+Aug 2021,Putrajaya,1447,14,cases
+Sep 2021,Johor,57198,3,cases
+Sep 2021,Kedah,35793,7,cases
+Sep 2021,Kelantan,37782,6,cases
+Sep 2021,Malacca,9787,12,cases
+Sep 2021,Negeri Sembilan,5768,13,cases
+Sep 2021,Pahang,20584,10,cases
+Sep 2021,Perak,34136,8,cases
+Sep 2021,Perlis,1938,14,cases
+Sep 2021,Penang,43718,5,cases
+Sep 2021,Sabah,50130,4,cases
+Sep 2021,Sarawak,93066,1,cases
+Sep 2021,Selangor,73667,2,cases
+Sep 2021,Terengganu,22153,9,cases
+Sep 2021,Kuala Lumpur,12821,11,cases
+Sep 2021,Labuan,154,16,cases
+Sep 2021,Putrajaya,746,15,cases
+Jan 2020,Johor,0,1,deaths
+Jan 2020,Kedah,0,1,deaths
+Jan 2020,Kelantan,0,1,deaths
+Jan 2020,Malacca,0,1,deaths
+Jan 2020,Negeri Sembilan,0,1,deaths
+Jan 2020,Pahang,0,1,deaths
+Jan 2020,Perak,0,1,deaths
+Jan 2020,Perlis,0,1,deaths
+Jan 2020,Penang,0,1,deaths
+Jan 2020,Sabah,0,1,deaths
+Jan 2020,Sarawak,0,1,deaths
+Jan 2020,Selangor,0,1,deaths
+Jan 2020,Terengganu,0,1,deaths
+Jan 2020,Kuala Lumpur,0,1,deaths
+Jan 2020,Labuan,0,1,deaths
+Jan 2020,Putrajaya,0,1,deaths
+Feb 2020,Johor,0,1,deaths
+Feb 2020,Kedah,0,1,deaths
+Feb 2020,Kelantan,0,1,deaths
+Feb 2020,Malacca,0,1,deaths
+Feb 2020,Negeri Sembilan,0,1,deaths
+Feb 2020,Pahang,0,1,deaths
+Feb 2020,Perak,0,1,deaths
+Feb 2020,Perlis,0,1,deaths
+Feb 2020,Penang,0,1,deaths
+Feb 2020,Sabah,0,1,deaths
+Feb 2020,Sarawak,0,1,deaths
+Feb 2020,Selangor,0,1,deaths
+Feb 2020,Terengganu,0,1,deaths
+Feb 2020,Kuala Lumpur,0,1,deaths
+Feb 2020,Labuan,0,1,deaths
+Feb 2020,Putrajaya,0,1,deaths
+Mar 2020,Johor,12,1,deaths
+Mar 2020,Kedah,1,9,deaths
+Mar 2020,Kelantan,2,6,deaths
+Mar 2020,Malacca,2,6,deaths
+Mar 2020,Negeri Sembilan,2,6,deaths
+Mar 2020,Pahang,0,14,deaths
+Mar 2020,Perak,3,5,deaths
+Mar 2020,Perlis,1,9,deaths
+Mar 2020,Penang,1,9,deaths
+Mar 2020,Sabah,1,9,deaths
+Mar 2020,Sarawak,8,2,deaths
+Mar 2020,Selangor,7,3,deaths
+Mar 2020,Terengganu,0,14,deaths
+Mar 2020,Kuala Lumpur,7,3,deaths
+Mar 2020,Labuan,0,14,deaths
+Mar 2020,Putrajaya,1,9,deaths
+Apr 2020,Johor,5,4,deaths
+Apr 2020,Kedah,0,13,deaths
+Apr 2020,Kelantan,1,10,deaths
+Apr 2020,Malacca,3,7,deaths
+Apr 2020,Negeri Sembilan,5,4,deaths
+Apr 2020,Pahang,4,6,deaths
+Apr 2020,Perak,3,7,deaths
+Apr 2020,Perlis,1,10,deaths
+Apr 2020,Penang,0,13,deaths
+Apr 2020,Sabah,3,7,deaths
+Apr 2020,Sarawak,9,2,deaths
+Apr 2020,Selangor,11,1,deaths
+Apr 2020,Terengganu,1,10,deaths
+Apr 2020,Kuala Lumpur,9,2,deaths
+Apr 2020,Labuan,0,13,deaths
+Apr 2020,Putrajaya,0,13,deaths
+May 2020,Johor,1,3,deaths
+May 2020,Kedah,0,8,deaths
+May 2020,Kelantan,0,8,deaths
+May 2020,Malacca,1,3,deaths
+May 2020,Negeri Sembilan,1,3,deaths
+May 2020,Pahang,3,2,deaths
+May 2020,Perak,0,8,deaths
+May 2020,Perlis,0,8,deaths
+May 2020,Penang,0,8,deaths
+May 2020,Sabah,1,3,deaths
+May 2020,Sarawak,0,8,deaths
+May 2020,Selangor,4,1,deaths
+May 2020,Terengganu,0,8,deaths
+May 2020,Kuala Lumpur,1,3,deaths
+May 2020,Labuan,0,8,deaths
+May 2020,Putrajaya,0,8,deaths
+Jun 2020,Johor,1,3,deaths
+Jun 2020,Kedah,0,5,deaths
+Jun 2020,Kelantan,0,5,deaths
+Jun 2020,Malacca,0,5,deaths
+Jun 2020,Negeri Sembilan,0,5,deaths
+Jun 2020,Pahang,0,5,deaths
+Jun 2020,Perak,0,5,deaths
+Jun 2020,Perlis,0,5,deaths
+Jun 2020,Penang,0,5,deaths
+Jun 2020,Sabah,2,1,deaths
+Jun 2020,Sarawak,0,5,deaths
+Jun 2020,Selangor,2,1,deaths
+Jun 2020,Terengganu,0,5,deaths
+Jun 2020,Kuala Lumpur,1,3,deaths
+Jun 2020,Labuan,0,5,deaths
+Jun 2020,Putrajaya,0,5,deaths
+Jul 2020,Johor,1,2,deaths
+Jul 2020,Kedah,0,4,deaths
+Jul 2020,Kelantan,0,4,deaths
+Jul 2020,Malacca,0,4,deaths
+Jul 2020,Negeri Sembilan,0,4,deaths
+Jul 2020,Pahang,0,4,deaths
+Jul 2020,Perak,0,4,deaths
+Jul 2020,Perlis,0,4,deaths
+Jul 2020,Penang,0,4,deaths
+Jul 2020,Sabah,1,2,deaths
+Jul 2020,Sarawak,2,1,deaths
+Jul 2020,Selangor,0,4,deaths
+Jul 2020,Terengganu,0,4,deaths
+Jul 2020,Kuala Lumpur,0,4,deaths
+Jul 2020,Labuan,0,4,deaths
+Jul 2020,Putrajaya,0,4,deaths
+Aug 2020,Johor,0,3,deaths
+Aug 2020,Kedah,2,1,deaths
+Aug 2020,Kelantan,0,3,deaths
+Aug 2020,Malacca,1,2,deaths
+Aug 2020,Negeri Sembilan,0,3,deaths
+Aug 2020,Pahang,0,3,deaths
+Aug 2020,Perak,0,3,deaths
+Aug 2020,Perlis,0,3,deaths
+Aug 2020,Penang,0,3,deaths
+Aug 2020,Sabah,0,3,deaths
+Aug 2020,Sarawak,0,3,deaths
+Aug 2020,Selangor,0,3,deaths
+Aug 2020,Terengganu,0,3,deaths
+Aug 2020,Kuala Lumpur,0,3,deaths
+Aug 2020,Labuan,0,3,deaths
+Aug 2020,Putrajaya,0,3,deaths
+Sep 2020,Johor,0,4,deaths
+Sep 2020,Kedah,3,2,deaths
+Sep 2020,Kelantan,0,4,deaths
+Sep 2020,Malacca,0,4,deaths
+Sep 2020,Negeri Sembilan,0,4,deaths
+Sep 2020,Pahang,0,4,deaths
+Sep 2020,Perak,0,4,deaths
+Sep 2020,Perlis,0,4,deaths
+Sep 2020,Penang,1,3,deaths
+Sep 2020,Sabah,6,1,deaths
+Sep 2020,Sarawak,0,4,deaths
+Sep 2020,Selangor,0,4,deaths
+Sep 2020,Terengganu,0,4,deaths
+Sep 2020,Kuala Lumpur,0,4,deaths
+Sep 2020,Labuan,0,4,deaths
+Sep 2020,Putrajaya,0,4,deaths
+Oct 2020,Johor,0,8,deaths
+Oct 2020,Kedah,2,2,deaths
+Oct 2020,Kelantan,0,8,deaths
+Oct 2020,Malacca,0,8,deaths
+Oct 2020,Negeri Sembilan,0,8,deaths
+Oct 2020,Pahang,0,8,deaths
+Oct 2020,Perak,1,5,deaths
+Oct 2020,Perlis,0,8,deaths
+Oct 2020,Penang,1,5,deaths
+Oct 2020,Sabah,120,1,deaths
+Oct 2020,Sarawak,0,8,deaths
+Oct 2020,Selangor,2,2,deaths
+Oct 2020,Terengganu,0,8,deaths
+Oct 2020,Kuala Lumpur,1,5,deaths
+Oct 2020,Labuan,2,2,deaths
+Oct 2020,Putrajaya,0,8,deaths
+Nov 2020,Johor,2,6,deaths
+Nov 2020,Kedah,3,4,deaths
+Nov 2020,Kelantan,0,11,deaths
+Nov 2020,Malacca,0,11,deaths
+Nov 2020,Negeri Sembilan,1,8,deaths
+Nov 2020,Pahang,0,11,deaths
+Nov 2020,Perak,8,2,deaths
+Nov 2020,Perlis,0,11,deaths
+Nov 2020,Penang,2,6,deaths
+Nov 2020,Sabah,90,1,deaths
+Nov 2020,Sarawak,0,11,deaths
+Nov 2020,Selangor,5,3,deaths
+Nov 2020,Terengganu,0,11,deaths
+Nov 2020,Kuala Lumpur,1,8,deaths
+Nov 2020,Labuan,3,4,deaths
+Nov 2020,Putrajaya,1,8,deaths
+Dec 2020,Johor,14,3,deaths
+Dec 2020,Kedah,1,10,deaths
+Dec 2020,Kelantan,6,5,deaths
+Dec 2020,Malacca,1,10,deaths
+Dec 2020,Negeri Sembilan,4,7,deaths
+Dec 2020,Pahang,0,14,deaths
+Dec 2020,Perak,1,10,deaths
+Dec 2020,Perlis,0,14,deaths
+Dec 2020,Penang,5,6,deaths
+Dec 2020,Sabah,51,1,deaths
+Dec 2020,Sarawak,2,9,deaths
+Dec 2020,Selangor,34,2,deaths
+Dec 2020,Terengganu,0,14,deaths
+Dec 2020,Kuala Lumpur,8,4,deaths
+Dec 2020,Labuan,3,8,deaths
+Dec 2020,Putrajaya,1,10,deaths
+Jan 2021,Johor,39,4,deaths
+Jan 2021,Kedah,6,10,deaths
+Jan 2021,Kelantan,4,11,deaths
+Jan 2021,Malacca,8,8,deaths
+Jan 2021,Negeri Sembilan,15,6,deaths
+Jan 2021,Pahang,8,8,deaths
+Jan 2021,Perak,14,7,deaths
+Jan 2021,Perlis,0,16,deaths
+Jan 2021,Penang,2,15,deaths
+Jan 2021,Sabah,56,2,deaths
+Jan 2021,Sarawak,18,5,deaths
+Jan 2021,Selangor,163,1,deaths
+Jan 2021,Terengganu,4,11,deaths
+Jan 2021,Kuala Lumpur,52,3,deaths
+Jan 2021,Labuan,3,14,deaths
+Jan 2021,Putrajaya,4,11,deaths
+Feb 2021,Johor,29,5,deaths
+Feb 2021,Kedah,5,10,deaths
+Feb 2021,Kelantan,8,7,deaths
+Feb 2021,Malacca,6,8,deaths
+Feb 2021,Negeri Sembilan,4,12,deaths
+Feb 2021,Pahang,4,12,deaths
+Feb 2021,Perak,11,6,deaths
+Feb 2021,Perlis,0,16,deaths
+Feb 2021,Penang,5,10,deaths
+Feb 2021,Sabah,49,2,deaths
+Feb 2021,Sarawak,46,3,deaths
+Feb 2021,Selangor,96,1,deaths
+Feb 2021,Terengganu,6,8,deaths
+Feb 2021,Kuala Lumpur,37,4,deaths
+Feb 2021,Labuan,1,14,deaths
+Feb 2021,Putrajaya,1,14,deaths
+Mar 2021,Johor,11,5,deaths
+Mar 2021,Kedah,3,7,deaths
+Mar 2021,Kelantan,3,7,deaths
+Mar 2021,Malacca,2,11,deaths
+Mar 2021,Negeri Sembilan,1,13,deaths
+Mar 2021,Pahang,3,7,deaths
+Mar 2021,Perak,3,7,deaths
+Mar 2021,Perlis,0,15,deaths
+Mar 2021,Penang,5,6,deaths
+Mar 2021,Sabah,18,3,deaths
+Mar 2021,Sarawak,28,2,deaths
+Mar 2021,Selangor,40,1,deaths
+Mar 2021,Terengganu,2,11,deaths
+Mar 2021,Kuala Lumpur,14,4,deaths
+Mar 2021,Labuan,0,15,deaths
+Mar 2021,Putrajaya,1,13,deaths
+Apr 2021,Johor,14,6,deaths
+Apr 2021,Kedah,0,13,deaths
+Apr 2021,Kelantan,24,5,deaths
+Apr 2021,Malacca,0,13,deaths
+Apr 2021,Negeri Sembilan,6,7,deaths
+Apr 2021,Pahang,3,9,deaths
+Apr 2021,Perak,1,11,deaths
+Apr 2021,Perlis,0,13,deaths
+Apr 2021,Penang,6,7,deaths
+Apr 2021,Sabah,41,3,deaths
+Apr 2021,Sarawak,69,1,deaths
+Apr 2021,Selangor,56,2,deaths
+Apr 2021,Terengganu,3,9,deaths
+Apr 2021,Kuala Lumpur,33,4,deaths
+Apr 2021,Labuan,0,13,deaths
+Apr 2021,Putrajaya,1,11,deaths
+May 2021,Johor,195,2,deaths
+May 2021,Kedah,130,5,deaths
+May 2021,Kelantan,117,6,deaths
+May 2021,Malacca,58,9,deaths
+May 2021,Negeri Sembilan,86,7,deaths
+May 2021,Pahang,32,12,deaths
+May 2021,Perak,53,10,deaths
+May 2021,Perlis,2,15,deaths
+May 2021,Penang,64,8,deaths
+May 2021,Sabah,37,11,deaths
+May 2021,Sarawak,131,4,deaths
+May 2021,Selangor,494,1,deaths
+May 2021,Terengganu,28,13,deaths
+May 2021,Kuala Lumpur,173,3,deaths
+May 2021,Labuan,13,14,deaths
+May 2021,Putrajaya,2,15,deaths
+Jun 2021,Johor,275,3,deaths
+Jun 2021,Kedah,95,7,deaths
+Jun 2021,Kelantan,91,8,deaths
+Jun 2021,Malacca,79,10,deaths
+Jun 2021,Negeri Sembilan,306,2,deaths
+Jun 2021,Pahang,64,11,deaths
+Jun 2021,Perak,35,12,deaths
+Jun 2021,Perlis,4,15,deaths
+Jun 2021,Penang,29,14,deaths
+Jun 2021,Sabah,80,9,deaths
+Jun 2021,Sarawak,109,5,deaths
+Jun 2021,Selangor,939,1,deaths
+Jun 2021,Terengganu,33,13,deaths
+Jun 2021,Kuala Lumpur,256,4,deaths
+Jun 2021,Labuan,101,6,deaths
+Jun 2021,Putrajaya,2,16,deaths
+Jul 2021,Johor,388,4,deaths
+Jul 2021,Kedah,368,5,deaths
+Jul 2021,Kelantan,41,13,deaths
+Jul 2021,Malacca,292,6,deaths
+Jul 2021,Negeri Sembilan,461,3,deaths
+Jul 2021,Pahang,156,7,deaths
+Jul 2021,Perak,88,9,deaths
+Jul 2021,Perlis,1,16,deaths
+Jul 2021,Penang,79,10,deaths
+Jul 2021,Sabah,108,8,deaths
+Jul 2021,Sarawak,46,12,deaths
+Jul 2021,Selangor,3650,1,deaths
+Jul 2021,Terengganu,54,11,deaths
+Jul 2021,Kuala Lumpur,894,2,deaths
+Jul 2021,Labuan,20,14,deaths
+Jul 2021,Putrajaya,5,15,deaths
+Aug 2021,Johor,1249,2,deaths
+Aug 2021,Kedah,797,4,deaths
+Aug 2021,Kelantan,243,9,deaths
+Aug 2021,Malacca,290,8,deaths
+Aug 2021,Negeri Sembilan,238,10,deaths
+Aug 2021,Pahang,185,11,deaths
+Aug 2021,Perak,310,7,deaths
+Aug 2021,Perlis,19,14,deaths
+Aug 2021,Penang,488,6,deaths
+Aug 2021,Sabah,753,5,deaths
+Aug 2021,Sarawak,92,13,deaths
+Aug 2021,Selangor,3232,1,deaths
+Aug 2021,Terengganu,124,12,deaths
+Aug 2021,Kuala Lumpur,813,3,deaths
+Aug 2021,Labuan,2,16,deaths
+Aug 2021,Putrajaya,3,15,deaths
+Sep 2021,Johor,1103,1,deaths
+Sep 2021,Kedah,453,5,deaths
+Sep 2021,Kelantan,313,8,deaths
+Sep 2021,Malacca,111,12,deaths
+Sep 2021,Negeri Sembilan,67,13,deaths
+Sep 2021,Pahang,130,10,deaths
+Sep 2021,Perak,373,6,deaths
+Sep 2021,Perlis,47,14,deaths
+Sep 2021,Penang,711,3,deaths
+Sep 2021,Sabah,849,2,deaths
+Sep 2021,Sarawak,340,7,deaths
+Sep 2021,Selangor,673,4,deaths
+Sep 2021,Terengganu,130,10,deaths
+Sep 2021,Kuala Lumpur,197,9,deaths
+Sep 2021,Labuan,0,15,deaths
+Sep 2021,Putrajaya,0,15,deaths

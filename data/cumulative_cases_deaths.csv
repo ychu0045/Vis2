@@ -1,0 +1,33 @@
+state,cases_deaths,population,remark
+Johor,195845,3781000,cases
+Kedah,134835,2185100,cases
+Kelantan,115308,1906700,cases
+Malacca,58345,932700,cases
+Negeri Sembilan,97244,1128800,cases
+Pahang,64717,1678700,cases
+Penang,130209,1773600,cases
+Perak,102229,2510300,cases
+Perlis,3892,254900,cases
+Sabah,197973,3908500,cases
+Sarawak,209624,2816500,cases
+Selangor,677664,6538000,cases
+Terengganu,55645,1259300,cases
+Kuala Lumpur,186058,1773700,cases
+Labuan,9963,99600,cases
+Putrajaya,6144,110000,cases
+Johor,3339,3781000,deaths
+Kedah,1869,2185100,deaths
+Kelantan,853,1906700,deaths
+Malacca,854,932700,deaths
+Negeri Sembilan,1197,1128800,deaths
+Pahang,592,1678700,deaths
+Penang,1399,1773600,deaths
+Perak,904,2510300,deaths
+Perlis,75,254900,deaths
+Sabah,2266,3908500,deaths
+Sarawak,900,2816500,deaths
+Selangor,9408,6538000,deaths
+Terengganu,385,1259300,deaths
+Kuala Lumpur,2497,1773700,deaths
+Labuan,148,99600,deaths
+Putrajaya,22,110000,deaths

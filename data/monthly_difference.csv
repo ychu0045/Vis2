@@ -1,0 +1,749 @@
+date,state,cases_deaths,difference,remark
+Jan 2020,Johor,7,7,cases
+Feb 2020,Johor,1,-6,cases
+Mar 2020,Johor,343,342,cases
+Apr 2020,Johor,312,-31,cases
+May 2020,Johor,12,-300,cases
+Jun 2020,Johor,16,4,cases
+Jul 2020,Johor,51,35,cases
+Aug 2020,Johor,9,-42,cases
+Sep 2020,Johor,16,7,cases
+Oct 2020,Johor,139,123,cases
+Nov 2020,Johor,473,334,cases
+Dec 2020,Johor,4355,3882,cases
+Jan 2021,Johor,15824,11469,cases
+Feb 2021,Johor,14399,-1425,cases
+Mar 2021,Johor,5298,-9101,cases
+Apr 2021,Johor,4122,-1176,cases
+May 2021,Johor,13006,8884,cases
+Jun 2021,Johor,12441,-565,cases
+Jul 2021,Johor,19859,7418,cases
+Aug 2021,Johor,47964,28105,cases
+Sep 2021,Johor,57198,9234,cases
+End,Johor,0,0,cases
+Jan 2020,Kedah,1,1,cases
+Feb 2020,Kedah,2,1,cases
+Mar 2020,Kedah,74,72,cases
+Apr 2020,Kedah,18,-56,cases
+May 2020,Kedah,1,-17,cases
+Jun 2020,Kedah,1,0,cases
+Jul 2020,Kedah,12,11,cases
+Aug 2020,Kedah,107,95,cases
+Sep 2020,Kedah,151,44,cases
+Oct 2020,Kedah,1757,1606,cases
+Nov 2020,Kedah,439,-1318,cases
+Dec 2020,Kedah,461,22,cases
+Jan 2021,Kedah,2762,2301,cases
+Feb 2021,Kedah,1825,-937,cases
+Mar 2021,Kedah,824,-1001,cases
+Apr 2021,Kedah,1489,665,cases
+May 2021,Kedah,8985,7496,cases
+Jun 2021,Kedah,6360,-2625,cases
+Jul 2021,Kedah,20362,14002,cases
+Aug 2021,Kedah,53411,33049,cases
+Sep 2021,Kedah,35793,-17618,cases
+End,Kedah,0,0,cases
+Jan 2020,Kelantan,0,0,cases
+Feb 2020,Kelantan,0,0,cases
+Mar 2020,Kelantan,131,131,cases
+Apr 2020,Kelantan,24,-107,cases
+May 2020,Kelantan,1,-23,cases
+Jun 2020,Kelantan,1,0,cases
+Jul 2020,Kelantan,3,2,cases
+Aug 2020,Kelantan,0,-3,cases
+Sep 2020,Kelantan,4,4,cases
+Oct 2020,Kelantan,16,12,cases
+Nov 2020,Kelantan,180,164,cases
+Dec 2020,Kelantan,398,218,cases
+Jan 2021,Kelantan,2493,2095,cases
+Feb 2021,Kelantan,1631,-862,cases
+Mar 2021,Kelantan,1368,-263,cases
+Apr 2021,Kelantan,7582,6214,cases
+May 2021,Kelantan,13956,6374,cases
+Jun 2021,Kelantan,7023,-6933,cases
+Jul 2021,Kelantan,8183,1160,cases
+Aug 2021,Kelantan,34532,26349,cases
+Sep 2021,Kelantan,37782,3250,cases
+End,Kelantan,0,0,cases
+Jan 2020,Malacca,0,0,cases
+Feb 2020,Malacca,0,0,cases
+Mar 2020,Malacca,52,52,cases
+Apr 2020,Malacca,146,94,cases
+May 2020,Malacca,21,-125,cases
+Jun 2020,Malacca,37,16,cases
+Jul 2020,Malacca,2,-35,cases
+Aug 2020,Malacca,4,2,cases
+Sep 2020,Malacca,4,0,cases
+Oct 2020,Malacca,45,41,cases
+Nov 2020,Malacca,76,31,cases
+Dec 2020,Malacca,838,762,cases
+Jan 2021,Malacca,2350,1512,cases
+Feb 2021,Malacca,2400,50,cases
+Mar 2021,Malacca,567,-1833,cases
+Apr 2021,Malacca,832,265,cases
+May 2021,Malacca,4712,3880,cases
+Jun 2021,Malacca,6329,1617,cases
+Jul 2021,Malacca,12951,6622,cases
+Aug 2021,Malacca,17192,4241,cases
+Sep 2021,Malacca,9787,-7405,cases
+End,Malacca,0,0,cases
+Jan 2020,Negeri Sembilan,0,0,cases
+Feb 2020,Negeri Sembilan,2,2,cases
+Mar 2020,Negeri Sembilan,179,177,cases
+Apr 2020,Negeri Sembilan,332,153,cases
+May 2020,Negeri Sembilan,345,13,cases
+Jun 2020,Negeri Sembilan,167,-178,cases
+Jul 2020,Negeri Sembilan,4,-163,cases
+Aug 2020,Negeri Sembilan,5,1,cases
+Sep 2020,Negeri Sembilan,15,10,cases
+Oct 2020,Negeri Sembilan,558,543,cases
+Nov 2020,Negeri Sembilan,3308,2750,cases
+Dec 2020,Negeri Sembilan,2913,-395,cases
+Jan 2021,Negeri Sembilan,3822,909,cases
+Feb 2021,Negeri Sembilan,4159,337,cases
+Mar 2021,Negeri Sembilan,1459,-2700,cases
+Apr 2021,Negeri Sembilan,1482,23,cases
+May 2021,Negeri Sembilan,7555,6073,cases
+Jun 2021,Negeri Sembilan,18575,11020,cases
+Jul 2021,Negeri Sembilan,26611,8036,cases
+Aug 2021,Negeri Sembilan,19985,-6626,cases
+Sep 2021,Negeri Sembilan,5768,-14217,cases
+End,Negeri Sembilan,0,0,cases
+Jan 2020,Pahang,0,0,cases
+Feb 2020,Pahang,0,0,cases
+Mar 2020,Pahang,102,102,cases
+Apr 2020,Pahang,192,90,cases
+May 2020,Pahang,67,-125,cases
+Jun 2020,Pahang,4,-63,cases
+Jul 2020,Pahang,5,1,cases
+Aug 2020,Pahang,0,-5,cases
+Sep 2020,Pahang,9,9,cases
+Oct 2020,Pahang,15,6,cases
+Nov 2020,Pahang,9,-6,cases
+Dec 2020,Pahang,962,953,cases
+Jan 2021,Pahang,1619,657,cases
+Feb 2021,Pahang,804,-815,cases
+Mar 2021,Pahang,478,-326,cases
+Apr 2021,Pahang,912,434,cases
+May 2021,Pahang,4399,3487,cases
+Jun 2021,Pahang,4089,-310,cases
+Jul 2021,Pahang,10770,6681,cases
+Aug 2021,Pahang,19697,8927,cases
+Sep 2021,Pahang,20584,887,cases
+End,Pahang,0,0,cases
+Jan 2020,Penang,0,0,cases
+Feb 2020,Penang,0,0,cases
+Mar 2020,Penang,93,93,cases
+Apr 2020,Penang,27,-66,cases
+May 2020,Penang,1,-26,cases
+Jun 2020,Penang,0,-1,cases
+Jul 2020,Penang,0,0,cases
+Aug 2020,Penang,15,15,cases
+Sep 2020,Penang,8,-7,cases
+Oct 2020,Penang,850,842,cases
+Nov 2020,Penang,1094,244,cases
+Dec 2020,Penang,1400,306,cases
+Jan 2021,Penang,4360,2960,cases
+Feb 2021,Penang,3640,-720,cases
+Mar 2021,Penang,4581,941,cases
+Apr 2021,Penang,3737,-844,cases
+May 2021,Penang,8820,5083,cases
+Jun 2021,Penang,5869,-2951,cases
+Jul 2021,Penang,11338,5469,cases
+Aug 2021,Penang,40658,29320,cases
+Sep 2021,Penang,43718,3060,cases
+End,Penang,0,0,cases
+Jan 2020,Perak,0,0,cases
+Feb 2020,Perak,0,0,cases
+Mar 2020,Perak,189,189,cases
+Apr 2020,Perak,64,-125,cases
+May 2020,Perak,3,-61,cases
+Jun 2020,Perak,2,-1,cases
+Jul 2020,Perak,4,2,cases
+Aug 2020,Perak,7,3,cases
+Sep 2020,Perak,2,-5,cases
+Oct 2020,Perak,240,238,cases
+Nov 2020,Perak,1274,1034,cases
+Dec 2020,Perak,1410,136,cases
+Jan 2021,Perak,2912,1502,cases
+Feb 2021,Perak,5114,2202,cases
+Mar 2021,Perak,1745,-3369,cases
+Apr 2021,Perak,1783,38,cases
+May 2021,Perak,5885,4102,cases
+Jun 2021,Perak,5994,109,cases
+Jul 2021,Perak,11051,5057,cases
+Aug 2021,Perak,30414,19363,cases
+Sep 2021,Perak,34136,3722,cases
+End,Perak,0,0,cases
+Jan 2020,Perlis,0,0,cases
+Feb 2020,Perlis,0,0,cases
+Mar 2020,Perlis,13,13,cases
+Apr 2020,Perlis,5,-8,cases
+May 2020,Perlis,0,-5,cases
+Jun 2020,Perlis,0,0,cases
+Jul 2020,Perlis,1,1,cases
+Aug 2020,Perlis,13,12,cases
+Sep 2020,Perlis,4,-9,cases
+Oct 2020,Perlis,2,-2,cases
+Nov 2020,Perlis,5,3,cases
+Dec 2020,Perlis,3,-2,cases
+Jan 2021,Perlis,130,127,cases
+Feb 2021,Perlis,36,-94,cases
+Mar 2021,Perlis,118,82,cases
+Apr 2021,Perlis,34,-84,cases
+May 2021,Perlis,147,113,cases
+Jun 2021,Perlis,83,-64,cases
+Jul 2021,Perlis,110,27,cases
+Aug 2021,Perlis,1250,1140,cases
+Sep 2021,Perlis,1938,688,cases
+End,Perlis,0,0,cases
+Jan 2020,Sabah,0,0,cases
+Feb 2020,Sabah,0,0,cases
+Mar 2020,Sabah,206,206,cases
+Apr 2020,Sabah,109,-97,cases
+May 2020,Sabah,31,-78,cases
+Jun 2020,Sabah,26,-5,cases
+Jul 2020,Sabah,26,0,cases
+Aug 2020,Sabah,19,-7,cases
+Sep 2020,Sabah,1460,1441,cases
+Oct 2020,Sabah,13171,11711,cases
+Nov 2020,Sabah,13723,552,cases
+Dec 2020,Sabah,8269,-5454,cases
+Jan 2021,Sabah,11828,3559,cases
+Feb 2021,Sabah,4018,-7810,cases
+Mar 2021,Sabah,1881,-2137,cases
+Apr 2021,Sabah,3369,1488,cases
+May 2021,Sabah,4108,739,cases
+Jun 2021,Sabah,7201,3093,cases
+Jul 2021,Sabah,15276,8075,cases
+Aug 2021,Sabah,63122,47846,cases
+Sep 2021,Sabah,50130,-12992,cases
+End,Sabah,0,0,cases
+Jan 2020,Sarawak,0,0,cases
+Feb 2020,Sarawak,0,0,cases
+Mar 2020,Sarawak,156,156,cases
+Apr 2020,Sarawak,351,195,cases
+May 2020,Sarawak,45,-306,cases
+Jun 2020,Sarawak,19,-26,cases
+Jul 2020,Sarawak,107,88,cases
+Aug 2020,Sarawak,21,-86,cases
+Sep 2020,Sarawak,14,-7,cases
+Oct 2020,Sarawak,168,154,cases
+Nov 2020,Sarawak,183,15,cases
+Dec 2020,Sarawak,53,-130,cases
+Jan 2021,Sarawak,3333,3280,cases
+Feb 2021,Sarawak,5095,1762,cases
+Mar 2021,Sarawak,6845,1750,cases
+Apr 2021,Sarawak,14269,7424,cases
+May 2021,Sarawak,16670,2401,cases
+Jun 2021,Sarawak,17522,852,cases
+Jul 2021,Sarawak,11877,-5645,cases
+Aug 2021,Sarawak,39830,27953,cases
+Sep 2021,Sarawak,93066,53236,cases
+End,Sarawak,0,0,cases
+Jan 2020,Selangor,0,0,cases
+Feb 2020,Selangor,7,7,cases
+Mar 2020,Selangor,692,685,cases
+Apr 2020,Selangor,733,41,cases
+May 2020,Selangor,477,-256,cases
+Jun 2020,Selangor,138,-339,cases
+Jul 2020,Selangor,75,-63,cases
+Aug 2020,Selangor,48,-27,cases
+Sep 2020,Selangor,100,52,cases
+Oct 2020,Selangor,2429,2329,cases
+Nov 2020,Selangor,9235,6806,cases
+Dec 2020,Selangor,18461,9226,cases
+Jan 2021,Selangor,35541,17080,cases
+Feb 2021,Selangor,31959,-3582,cases
+Mar 2021,Selangor,16185,-15774,cases
+Apr 2021,Selangor,16812,627,cases
+May 2021,Selangor,54036,37224,cases
+Jun 2021,Selangor,61825,7789,cases
+Jul 2021,Selangor,158668,96843,cases
+Aug 2021,Selangor,196576,37908,cases
+Sep 2021,Selangor,73667,-122909,cases
+End,Selangor,0,0,cases
+Jan 2020,Terengganu,0,0,cases
+Feb 2020,Terengganu,0,0,cases
+Mar 2020,Terengganu,47,47,cases
+Apr 2020,Terengganu,63,16,cases
+May 2020,Terengganu,1,-62,cases
+Jun 2020,Terengganu,0,-1,cases
+Jul 2020,Terengganu,3,3,cases
+Aug 2020,Terengganu,0,-3,cases
+Sep 2020,Terengganu,6,6,cases
+Oct 2020,Terengganu,74,68,cases
+Nov 2020,Terengganu,43,-31,cases
+Dec 2020,Terengganu,88,45,cases
+Jan 2021,Terengganu,1817,1729,cases
+Feb 2021,Terengganu,1054,-763,cases
+Mar 2021,Terengganu,397,-657,cases
+Apr 2021,Terengganu,600,203,cases
+May 2021,Terengganu,4578,3978,cases
+Jun 2021,Terengganu,2430,-2148,cases
+Jul 2021,Terengganu,5747,3317,cases
+Aug 2021,Terengganu,16544,10797,cases
+Sep 2021,Terengganu,22153,5609,cases
+End,Terengganu,0,0,cases
+Jan 2020,Kuala Lumpur,0,0,cases
+Feb 2020,Kuala Lumpur,5,5,cases
+Mar 2020,Kuala Lumpur,427,422,cases
+Apr 2020,Kuala Lumpur,800,373,cases
+May 2020,Kuala Lumpur,796,-4,cases
+Jun 2020,Kuala Lumpur,408,-388,cases
+Jul 2020,Kuala Lumpur,41,-367,cases
+Aug 2020,Kuala Lumpur,111,70,cases
+Sep 2020,Kuala Lumpur,85,-26,cases
+Oct 2020,Kuala Lumpur,372,287,cases
+Nov 2020,Kuala Lumpur,3162,2790,cases
+Dec 2020,Kuala Lumpur,7280,4118,cases
+Jan 2021,Kuala Lumpur,12112,4832,cases
+Feb 2021,Kuala Lumpur,9372,-2740,cases
+Mar 2021,Kuala Lumpur,2847,-6525,cases
+Apr 2021,Kuala Lumpur,5836,2989,cases
+May 2021,Kuala Lumpur,14998,9162,cases
+Jun 2021,Kuala Lumpur,19024,4026,cases
+Jul 2021,Kuala Lumpur,45349,26325,cases
+Aug 2021,Kuala Lumpur,50212,4863,cases
+Sep 2021,Kuala Lumpur,12821,-37391,cases
+End,Kuala Lumpur,0,0,cases
+Jan 2020,Labuan,0,0,cases
+Feb 2020,Labuan,0,0,cases
+Mar 2020,Labuan,10,10,cases
+Apr 2020,Labuan,6,-4,cases
+May 2020,Labuan,0,-6,cases
+Jun 2020,Labuan,1,1,cases
+Jul 2020,Labuan,2,1,cases
+Aug 2020,Labuan,4,2,cases
+Sep 2020,Labuan,5,1,cases
+Oct 2020,Labuan,441,436,cases
+Nov 2020,Labuan,887,446,cases
+Dec 2020,Labuan,345,-542,cases
+Jan 2021,Labuan,446,101,cases
+Feb 2021,Labuan,106,-340,cases
+Mar 2021,Labuan,75,-31,cases
+Apr 2021,Labuan,125,50,cases
+May 2021,Labuan,1269,1144,cases
+Jun 2021,Labuan,4447,3178,cases
+Jul 2021,Labuan,1492,-2955,cases
+Aug 2021,Labuan,148,-1344,cases
+Sep 2021,Labuan,154,6,cases
+End,Labuan,0,0,cases
+Jan 2020,Putrajaya,0,0,cases
+Feb 2020,Putrajaya,0,0,cases
+Mar 2020,Putrajaya,27,27,cases
+Apr 2020,Putrajaya,54,27,cases
+May 2020,Putrajaya,16,-38,cases
+Jun 2020,Putrajaya,0,-16,cases
+Jul 2020,Putrajaya,1,1,cases
+Aug 2020,Putrajaya,1,0,cases
+Sep 2020,Putrajaya,1,0,cases
+Oct 2020,Putrajaya,47,46,cases
+Nov 2020,Putrajaya,58,11,cases
+Dec 2020,Putrajaya,77,19,cases
+Jan 2021,Putrajaya,600,523,cases
+Feb 2021,Putrajaya,181,-419,cases
+Mar 2021,Putrajaya,80,-101,cases
+Apr 2021,Putrajaya,229,149,cases
+May 2021,Putrajaya,520,291,cases
+Jun 2021,Putrajaya,410,-110,cases
+Jul 2021,Putrajaya,1649,1239,cases
+Aug 2021,Putrajaya,1447,-202,cases
+Sep 2021,Putrajaya,746,-701,cases
+End,Putrajaya,0,0,cases
+Jan 2020,Malaysia,8,8,cases
+Feb 2020,Malaysia,17,9,cases
+Mar 2020,Malaysia,2741,2724,cases
+Apr 2020,Malaysia,3236,495,cases
+May 2020,Malaysia,1817,-1419,cases
+Jun 2020,Malaysia,820,-997,cases
+Jul 2020,Malaysia,337,-483,cases
+Aug 2020,Malaysia,364,27,cases
+Sep 2020,Malaysia,1884,1520,cases
+Oct 2020,Malaysia,20324,18440,cases
+Nov 2020,Malaysia,34149,13825,cases
+Dec 2020,Malaysia,47313,13164,cases
+Jan 2021,Malaysia,101949,54636,cases
+Feb 2021,Malaysia,85793,-16156,cases
+Mar 2021,Malaysia,44748,-41045,cases
+Apr 2021,Malaysia,63213,18465,cases
+May 2021,Malaysia,163644,100431,cases
+Jun 2021,Malaysia,179622,15978,cases
+Jul 2021,Malaysia,361293,181671,cases
+Aug 2021,Malaysia,632982,271689,cases
+Sep 2021,Malaysia,499441,-133541,cases
+End,Malaysia,0,0,cases
+Jan 2020,Johor,0,0,deaths
+Feb 2020,Johor,0,0,deaths
+Mar 2020,Johor,12,12,deaths
+Apr 2020,Johor,5,-7,deaths
+May 2020,Johor,1,-4,deaths
+Jun 2020,Johor,1,0,deaths
+Jul 2020,Johor,1,0,deaths
+Aug 2020,Johor,0,-1,deaths
+Sep 2020,Johor,0,0,deaths
+Oct 2020,Johor,0,0,deaths
+Nov 2020,Johor,2,2,deaths
+Dec 2020,Johor,14,12,deaths
+Jan 2021,Johor,39,25,deaths
+Feb 2021,Johor,29,-10,deaths
+Mar 2021,Johor,11,-18,deaths
+Apr 2021,Johor,14,3,deaths
+May 2021,Johor,195,181,deaths
+Jun 2021,Johor,275,80,deaths
+Jul 2021,Johor,388,113,deaths
+Aug 2021,Johor,1249,861,deaths
+Sep 2021,Johor,1103,-146,deaths
+End,Johor,0,0,deaths
+Jan 2020,Kedah,0,0,deaths
+Feb 2020,Kedah,0,0,deaths
+Mar 2020,Kedah,1,1,deaths
+Apr 2020,Kedah,0,-1,deaths
+May 2020,Kedah,0,0,deaths
+Jun 2020,Kedah,0,0,deaths
+Jul 2020,Kedah,0,0,deaths
+Aug 2020,Kedah,2,2,deaths
+Sep 2020,Kedah,3,1,deaths
+Oct 2020,Kedah,2,-1,deaths
+Nov 2020,Kedah,3,1,deaths
+Dec 2020,Kedah,1,-2,deaths
+Jan 2021,Kedah,6,5,deaths
+Feb 2021,Kedah,5,-1,deaths
+Mar 2021,Kedah,3,-2,deaths
+Apr 2021,Kedah,0,-3,deaths
+May 2021,Kedah,130,130,deaths
+Jun 2021,Kedah,95,-35,deaths
+Jul 2021,Kedah,368,273,deaths
+Aug 2021,Kedah,797,429,deaths
+Sep 2021,Kedah,453,-344,deaths
+End,Kedah,0,0,deaths
+Jan 2020,Kelantan,0,0,deaths
+Feb 2020,Kelantan,0,0,deaths
+Mar 2020,Kelantan,2,2,deaths
+Apr 2020,Kelantan,1,-1,deaths
+May 2020,Kelantan,0,-1,deaths
+Jun 2020,Kelantan,0,0,deaths
+Jul 2020,Kelantan,0,0,deaths
+Aug 2020,Kelantan,0,0,deaths
+Sep 2020,Kelantan,0,0,deaths
+Oct 2020,Kelantan,0,0,deaths
+Nov 2020,Kelantan,0,0,deaths
+Dec 2020,Kelantan,6,6,deaths
+Jan 2021,Kelantan,4,-2,deaths
+Feb 2021,Kelantan,8,4,deaths
+Mar 2021,Kelantan,3,-5,deaths
+Apr 2021,Kelantan,24,21,deaths
+May 2021,Kelantan,117,93,deaths
+Jun 2021,Kelantan,91,-26,deaths
+Jul 2021,Kelantan,41,-50,deaths
+Aug 2021,Kelantan,243,202,deaths
+Sep 2021,Kelantan,313,70,deaths
+End,Kelantan,0,0,deaths
+Jan 2020,Malacca,0,0,deaths
+Feb 2020,Malacca,0,0,deaths
+Mar 2020,Malacca,2,2,deaths
+Apr 2020,Malacca,3,1,deaths
+May 2020,Malacca,1,-2,deaths
+Jun 2020,Malacca,0,-1,deaths
+Jul 2020,Malacca,0,0,deaths
+Aug 2020,Malacca,1,1,deaths
+Sep 2020,Malacca,0,-1,deaths
+Oct 2020,Malacca,0,0,deaths
+Nov 2020,Malacca,0,0,deaths
+Dec 2020,Malacca,1,1,deaths
+Jan 2021,Malacca,8,7,deaths
+Feb 2021,Malacca,6,-2,deaths
+Mar 2021,Malacca,2,-4,deaths
+Apr 2021,Malacca,0,-2,deaths
+May 2021,Malacca,58,58,deaths
+Jun 2021,Malacca,79,21,deaths
+Jul 2021,Malacca,292,213,deaths
+Aug 2021,Malacca,290,-2,deaths
+Sep 2021,Malacca,111,-179,deaths
+End,Malacca,0,0,deaths
+Jan 2020,Negeri Sembilan,0,0,deaths
+Feb 2020,Negeri Sembilan,0,0,deaths
+Mar 2020,Negeri Sembilan,2,2,deaths
+Apr 2020,Negeri Sembilan,5,3,deaths
+May 2020,Negeri Sembilan,1,-4,deaths
+Jun 2020,Negeri Sembilan,0,-1,deaths
+Jul 2020,Negeri Sembilan,0,0,deaths
+Aug 2020,Negeri Sembilan,0,0,deaths
+Sep 2020,Negeri Sembilan,0,0,deaths
+Oct 2020,Negeri Sembilan,0,0,deaths
+Nov 2020,Negeri Sembilan,1,1,deaths
+Dec 2020,Negeri Sembilan,4,3,deaths
+Jan 2021,Negeri Sembilan,15,11,deaths
+Feb 2021,Negeri Sembilan,4,-11,deaths
+Mar 2021,Negeri Sembilan,1,-3,deaths
+Apr 2021,Negeri Sembilan,6,5,deaths
+May 2021,Negeri Sembilan,86,80,deaths
+Jun 2021,Negeri Sembilan,306,220,deaths
+Jul 2021,Negeri Sembilan,461,155,deaths
+Aug 2021,Negeri Sembilan,238,-223,deaths
+Sep 2021,Negeri Sembilan,67,-171,deaths
+End,Negeri Sembilan,0,0,deaths
+Jan 2020,Pahang,0,0,deaths
+Feb 2020,Pahang,0,0,deaths
+Mar 2020,Pahang,0,0,deaths
+Apr 2020,Pahang,4,4,deaths
+May 2020,Pahang,3,-1,deaths
+Jun 2020,Pahang,0,-3,deaths
+Jul 2020,Pahang,0,0,deaths
+Aug 2020,Pahang,0,0,deaths
+Sep 2020,Pahang,0,0,deaths
+Oct 2020,Pahang,0,0,deaths
+Nov 2020,Pahang,0,0,deaths
+Dec 2020,Pahang,0,0,deaths
+Jan 2021,Pahang,8,8,deaths
+Feb 2021,Pahang,4,-4,deaths
+Mar 2021,Pahang,3,-1,deaths
+Apr 2021,Pahang,3,0,deaths
+May 2021,Pahang,32,29,deaths
+Jun 2021,Pahang,64,32,deaths
+Jul 2021,Pahang,156,92,deaths
+Aug 2021,Pahang,185,29,deaths
+Sep 2021,Pahang,130,-55,deaths
+End,Pahang,0,0,deaths
+Jan 2020,Penang,0,0,deaths
+Feb 2020,Penang,0,0,deaths
+Mar 2020,Penang,1,1,deaths
+Apr 2020,Penang,0,-1,deaths
+May 2020,Penang,0,0,deaths
+Jun 2020,Penang,0,0,deaths
+Jul 2020,Penang,0,0,deaths
+Aug 2020,Penang,0,0,deaths
+Sep 2020,Penang,1,1,deaths
+Oct 2020,Penang,1,0,deaths
+Nov 2020,Penang,2,1,deaths
+Dec 2020,Penang,5,3,deaths
+Jan 2021,Penang,2,-3,deaths
+Feb 2021,Penang,5,3,deaths
+Mar 2021,Penang,5,0,deaths
+Apr 2021,Penang,6,1,deaths
+May 2021,Penang,64,58,deaths
+Jun 2021,Penang,29,-35,deaths
+Jul 2021,Penang,79,50,deaths
+Aug 2021,Penang,488,409,deaths
+Sep 2021,Penang,711,223,deaths
+End,Penang,0,0,deaths
+Jan 2020,Perak,0,0,deaths
+Feb 2020,Perak,0,0,deaths
+Mar 2020,Perak,3,3,deaths
+Apr 2020,Perak,3,0,deaths
+May 2020,Perak,0,-3,deaths
+Jun 2020,Perak,0,0,deaths
+Jul 2020,Perak,0,0,deaths
+Aug 2020,Perak,0,0,deaths
+Sep 2020,Perak,0,0,deaths
+Oct 2020,Perak,1,1,deaths
+Nov 2020,Perak,8,7,deaths
+Dec 2020,Perak,1,-7,deaths
+Jan 2021,Perak,14,13,deaths
+Feb 2021,Perak,11,-3,deaths
+Mar 2021,Perak,3,-8,deaths
+Apr 2021,Perak,1,-2,deaths
+May 2021,Perak,53,52,deaths
+Jun 2021,Perak,35,-18,deaths
+Jul 2021,Perak,88,53,deaths
+Aug 2021,Perak,310,222,deaths
+Sep 2021,Perak,373,63,deaths
+End,Perak,0,0,deaths
+Jan 2020,Perlis,0,0,deaths
+Feb 2020,Perlis,0,0,deaths
+Mar 2020,Perlis,1,1,deaths
+Apr 2020,Perlis,1,0,deaths
+May 2020,Perlis,0,-1,deaths
+Jun 2020,Perlis,0,0,deaths
+Jul 2020,Perlis,0,0,deaths
+Aug 2020,Perlis,0,0,deaths
+Sep 2020,Perlis,0,0,deaths
+Oct 2020,Perlis,0,0,deaths
+Nov 2020,Perlis,0,0,deaths
+Dec 2020,Perlis,0,0,deaths
+Jan 2021,Perlis,0,0,deaths
+Feb 2021,Perlis,0,0,deaths
+Mar 2021,Perlis,0,0,deaths
+Apr 2021,Perlis,0,0,deaths
+May 2021,Perlis,2,2,deaths
+Jun 2021,Perlis,4,2,deaths
+Jul 2021,Perlis,1,-3,deaths
+Aug 2021,Perlis,19,18,deaths
+Sep 2021,Perlis,47,28,deaths
+End,Perlis,0,0,deaths
+Jan 2020,Sabah,0,0,deaths
+Feb 2020,Sabah,0,0,deaths
+Mar 2020,Sabah,1,1,deaths
+Apr 2020,Sabah,3,2,deaths
+May 2020,Sabah,1,-2,deaths
+Jun 2020,Sabah,2,1,deaths
+Jul 2020,Sabah,1,-1,deaths
+Aug 2020,Sabah,0,-1,deaths
+Sep 2020,Sabah,6,6,deaths
+Oct 2020,Sabah,120,114,deaths
+Nov 2020,Sabah,90,-30,deaths
+Dec 2020,Sabah,51,-39,deaths
+Jan 2021,Sabah,56,5,deaths
+Feb 2021,Sabah,49,-7,deaths
+Mar 2021,Sabah,18,-31,deaths
+Apr 2021,Sabah,41,23,deaths
+May 2021,Sabah,37,-4,deaths
+Jun 2021,Sabah,80,43,deaths
+Jul 2021,Sabah,108,28,deaths
+Aug 2021,Sabah,753,645,deaths
+Sep 2021,Sabah,849,96,deaths
+End,Sabah,0,0,deaths
+Jan 2020,Sarawak,0,0,deaths
+Feb 2020,Sarawak,0,0,deaths
+Mar 2020,Sarawak,8,8,deaths
+Apr 2020,Sarawak,9,1,deaths
+May 2020,Sarawak,0,-9,deaths
+Jun 2020,Sarawak,0,0,deaths
+Jul 2020,Sarawak,2,2,deaths
+Aug 2020,Sarawak,0,-2,deaths
+Sep 2020,Sarawak,0,0,deaths
+Oct 2020,Sarawak,0,0,deaths
+Nov 2020,Sarawak,0,0,deaths
+Dec 2020,Sarawak,2,2,deaths
+Jan 2021,Sarawak,18,16,deaths
+Feb 2021,Sarawak,46,28,deaths
+Mar 2021,Sarawak,28,-18,deaths
+Apr 2021,Sarawak,69,41,deaths
+May 2021,Sarawak,131,62,deaths
+Jun 2021,Sarawak,109,-22,deaths
+Jul 2021,Sarawak,46,-63,deaths
+Aug 2021,Sarawak,92,46,deaths
+Sep 2021,Sarawak,340,248,deaths
+End,Sarawak,0,0,deaths
+Jan 2020,Selangor,0,0,deaths
+Feb 2020,Selangor,0,0,deaths
+Mar 2020,Selangor,7,7,deaths
+Apr 2020,Selangor,11,4,deaths
+May 2020,Selangor,4,-7,deaths
+Jun 2020,Selangor,2,-2,deaths
+Jul 2020,Selangor,0,-2,deaths
+Aug 2020,Selangor,0,0,deaths
+Sep 2020,Selangor,0,0,deaths
+Oct 2020,Selangor,2,2,deaths
+Nov 2020,Selangor,5,3,deaths
+Dec 2020,Selangor,34,29,deaths
+Jan 2021,Selangor,163,129,deaths
+Feb 2021,Selangor,96,-67,deaths
+Mar 2021,Selangor,40,-56,deaths
+Apr 2021,Selangor,56,16,deaths
+May 2021,Selangor,494,438,deaths
+Jun 2021,Selangor,939,445,deaths
+Jul 2021,Selangor,3650,2711,deaths
+Aug 2021,Selangor,3232,-418,deaths
+Sep 2021,Selangor,673,-2559,deaths
+End,Selangor,0,0,deaths
+Jan 2020,Terengganu,0,0,deaths
+Feb 2020,Terengganu,0,0,deaths
+Mar 2020,Terengganu,0,0,deaths
+Apr 2020,Terengganu,1,1,deaths
+May 2020,Terengganu,0,-1,deaths
+Jun 2020,Terengganu,0,0,deaths
+Jul 2020,Terengganu,0,0,deaths
+Aug 2020,Terengganu,0,0,deaths
+Sep 2020,Terengganu,0,0,deaths
+Oct 2020,Terengganu,0,0,deaths
+Nov 2020,Terengganu,0,0,deaths
+Dec 2020,Terengganu,0,0,deaths
+Jan 2021,Terengganu,4,4,deaths
+Feb 2021,Terengganu,6,2,deaths
+Mar 2021,Terengganu,2,-4,deaths
+Apr 2021,Terengganu,3,1,deaths
+May 2021,Terengganu,28,25,deaths
+Jun 2021,Terengganu,33,5,deaths
+Jul 2021,Terengganu,54,21,deaths
+Aug 2021,Terengganu,124,70,deaths
+Sep 2021,Terengganu,130,6,deaths
+End,Terengganu,0,0,deaths
+Jan 2020,Kuala Lumpur,0,0,deaths
+Feb 2020,Kuala Lumpur,0,0,deaths
+Mar 2020,Kuala Lumpur,7,7,deaths
+Apr 2020,Kuala Lumpur,9,2,deaths
+May 2020,Kuala Lumpur,1,-8,deaths
+Jun 2020,Kuala Lumpur,1,0,deaths
+Jul 2020,Kuala Lumpur,0,-1,deaths
+Aug 2020,Kuala Lumpur,0,0,deaths
+Sep 2020,Kuala Lumpur,0,0,deaths
+Oct 2020,Kuala Lumpur,1,1,deaths
+Nov 2020,Kuala Lumpur,1,0,deaths
+Dec 2020,Kuala Lumpur,8,7,deaths
+Jan 2021,Kuala Lumpur,52,44,deaths
+Feb 2021,Kuala Lumpur,37,-15,deaths
+Mar 2021,Kuala Lumpur,14,-23,deaths
+Apr 2021,Kuala Lumpur,33,19,deaths
+May 2021,Kuala Lumpur,173,140,deaths
+Jun 2021,Kuala Lumpur,256,83,deaths
+Jul 2021,Kuala Lumpur,894,638,deaths
+Aug 2021,Kuala Lumpur,813,-81,deaths
+Sep 2021,Kuala Lumpur,197,-616,deaths
+End,Kuala Lumpur,0,0,deaths
+Jan 2020,Labuan,0,0,deaths
+Feb 2020,Labuan,0,0,deaths
+Mar 2020,Labuan,0,0,deaths
+Apr 2020,Labuan,0,0,deaths
+May 2020,Labuan,0,0,deaths
+Jun 2020,Labuan,0,0,deaths
+Jul 2020,Labuan,0,0,deaths
+Aug 2020,Labuan,0,0,deaths
+Sep 2020,Labuan,0,0,deaths
+Oct 2020,Labuan,2,2,deaths
+Nov 2020,Labuan,3,1,deaths
+Dec 2020,Labuan,3,0,deaths
+Jan 2021,Labuan,3,0,deaths
+Feb 2021,Labuan,1,-2,deaths
+Mar 2021,Labuan,0,-1,deaths
+Apr 2021,Labuan,0,0,deaths
+May 2021,Labuan,13,13,deaths
+Jun 2021,Labuan,101,88,deaths
+Jul 2021,Labuan,20,-81,deaths
+Aug 2021,Labuan,2,-18,deaths
+Sep 2021,Labuan,0,-2,deaths
+End,Labuan,0,0,deaths
+Jan 2020,Putrajaya,0,0,deaths
+Feb 2020,Putrajaya,0,0,deaths
+Mar 2020,Putrajaya,1,1,deaths
+Apr 2020,Putrajaya,0,-1,deaths
+May 2020,Putrajaya,0,0,deaths
+Jun 2020,Putrajaya,0,0,deaths
+Jul 2020,Putrajaya,0,0,deaths
+Aug 2020,Putrajaya,0,0,deaths
+Sep 2020,Putrajaya,0,0,deaths
+Oct 2020,Putrajaya,0,0,deaths
+Nov 2020,Putrajaya,1,1,deaths
+Dec 2020,Putrajaya,1,0,deaths
+Jan 2021,Putrajaya,4,3,deaths
+Feb 2021,Putrajaya,1,-3,deaths
+Mar 2021,Putrajaya,1,0,deaths
+Apr 2021,Putrajaya,1,0,deaths
+May 2021,Putrajaya,2,1,deaths
+Jun 2021,Putrajaya,2,0,deaths
+Jul 2021,Putrajaya,5,3,deaths
+Aug 2021,Putrajaya,3,-2,deaths
+Sep 2021,Putrajaya,0,-3,deaths
+End,Putrajaya,0,0,deaths
+Jan 2020,Malaysia,0,0,deaths
+Feb 2020,Malaysia,0,0,deaths
+Mar 2020,Malaysia,48,48,deaths
+Apr 2020,Malaysia,55,7,deaths
+May 2020,Malaysia,12,-43,deaths
+Jun 2020,Malaysia,6,-6,deaths
+Jul 2020,Malaysia,4,-2,deaths
+Aug 2020,Malaysia,3,-1,deaths
+Sep 2020,Malaysia,10,7,deaths
+Oct 2020,Malaysia,129,119,deaths
+Nov 2020,Malaysia,116,-13,deaths
+Dec 2020,Malaysia,131,15,deaths
+Jan 2021,Malaysia,396,265,deaths
+Feb 2021,Malaysia,308,-88,deaths
+Mar 2021,Malaysia,134,-174,deaths
+Apr 2021,Malaysia,257,123,deaths
+May 2021,Malaysia,1615,1358,deaths
+Jun 2021,Malaysia,2498,883,deaths
+Jul 2021,Malaysia,6651,4153,deaths
+Aug 2021,Malaysia,8838,2187,deaths
+Sep 2021,Malaysia,5497,-3341,deaths
+End,Malaysia,0,0,deaths
