@@ -167,8 +167,8 @@
         {
             "mark": {
                 "type": "rule",
-                "xOffset": -9,
-                "x2Offset": 9
+                "xOffset": -11,
+                "x2Offset": 11
             },
             "encoding": {
                 "x2": {
@@ -185,7 +185,7 @@
                 "type": "text",
                 "baseline": "bottom",
                 "dy": -2,
-                "fontSize": 5
+                "fontSize": 6
             },
             "encoding": {
                 "y": {
@@ -213,7 +213,7 @@
                 "type": "text",
                 "baseline": "bottom",
                 "dy": -2,
-                "fontSize": 5
+                "fontSize": 6
             },
             "encoding": {
                 "y": {

@@ -34,7 +34,7 @@
             "lookup": "state",
             "from": {
                 "data": {
-                    "url": "https://raw.githubusercontent.com/ychu0045/Week9/main/js/malaysia_singapore_brunei_administrative_malaysia_state_province_boundary.json",
+                    "url": "https://raw.githubusercontent.com/ychu0045/Vis2/main/js/malaysia_singapore_brunei_administrative_malaysia_state_province_boundary.json",
                     "format": {
                         "type": "topojson",
                         "feature": "malaysia_singapore_brunei_administrative_malaysia_state_province_boundary"
@@ -93,7 +93,7 @@
         },
         {
             "data": {
-                "url": "https://raw.githubusercontent.com/ychu0045/Visualisation2/main/data/capital_state.csv"
+                "url": "https://raw.githubusercontent.com/ychu0045/Vis2/main/data/state_capitals.csv"
             },
             "encoding": {
                 "latitude": {
