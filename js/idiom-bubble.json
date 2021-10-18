@@ -1,0 +1,126 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.1.0.json",
+    "title": "",
+    "width": "container",
+    "height": 300,
+    "background": "snow",
+    "data": {
+        "url": "https://raw.githubusercontent.com/ychu0045/Vis2/main/data/monthly_difference.csv"
+    },
+    "params": [
+        {
+            "name": "statistics_selection",
+            "value": "cases",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "cases",
+                    "deaths"
+                ],
+                "labels": [
+                    "Cases",
+                    "Deaths"
+                ],
+                "name": "Dataset: "
+            }
+        },
+        {
+            "name": "state_selection",
+            "select": {
+                "type": "point",
+                "on": "click",
+                "fields": [
+                    "state"
+                ]
+            },
+            "bind": "legend"
+        }
+    ],
+    "transform": [
+        {
+            "filter": "datum.remark === statistics_selection"
+        },
+        {
+            "filter": "datum.state !== 'Malaysia'"
+        },
+        {
+            "filter": "datum.date !== 'End'"
+        }
+    ],
+    "mark": {
+        "type": "circle",
+        "opacity": 0.8,
+        "stroke": "black",
+        "strokeWidth": 1
+    },
+    "encoding": {
+        "x": {
+            "field": "date",
+            "type": "ordinal",
+            "title": "Month",
+            "axis": {
+                "grid": false
+            },
+            "sort": null
+        },
+        "y": {
+            "field": "state",
+            "type": "nominal",
+            "title": null
+        },
+        "size": {
+            "field": "cases_deaths",
+            "type": "quantitative",
+            "title": "Annual Global Deaths",
+            "scale": {
+                "rangeMax": 5000
+            },
+            "legend": null
+        },
+        "color": {
+            "field": "state",
+            "type": "nominal",
+            "scale": {
+                "scheme": "category20"
+            },
+            "legend": {
+                "title": "State",
+                "orient": "bottom",
+                "columns": 8,
+                "padding": 10,
+                "strokeColor": "lightgray",
+                "cornerRadius": 10,
+                "symbolStrokeWidth": 0
+            }
+        },
+        "opacity": {
+            "condition": {
+                "param": "state_selection",
+                "value": 0.8
+            },
+            "value": 0.2
+        },
+        "tooltip": [
+            {
+                "field": "state",
+                "type": "nominal",
+                "title": "State"
+            },
+            {
+                "field": "date",
+                "type": "nominal",
+                "title": "Month"
+            },
+            {
+                "field": "cases_deaths",
+                "type": "quantitative",
+                "title": "Total"
+            }
+        ]
+    },
+    "config": {
+        "view": {
+            "stroke": null
+        }
+    }
+}

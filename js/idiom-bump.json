@@ -1,7 +1,9 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.1.0.json",
-    "title": "",
+    "title": "States Ranking based on Confirmed Cases and Deaths",
     "width": "container",
+    "height": 300,
+    "background": "snow",
     "data": {
         "url": "https://raw.githubusercontent.com/ychu0045/Vis2/main/data/monthly_rank.csv"
     },
@@ -19,7 +21,7 @@
                     "Cases",
                     "Deaths"
                 ],
-                "name": "Statistics: "
+                "name": "Dataset: "
             }
         }
     ],
@@ -66,10 +68,15 @@
                     "field": "state",
                     "type": "nominal",
                     "scale": {
-                        "scheme": "tableau20"
+                        "scheme": "category20"
                     },
                     "legend": {
-                        "title": "State"
+                        "title": "State",
+                        "orient": "bottom",
+                        "columns": 8,
+                        "padding": 10,
+                        "strokeColor": "lightgray",
+                        "cornerRadius": 10
                     }
                 },
                 "size": {
@@ -122,5 +129,10 @@
                 ]
             }
         }
-    ]
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        }
+    }
 }

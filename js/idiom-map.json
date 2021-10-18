@@ -1,7 +1,9 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.1.0.json",
     "title": "",
     "width": "container",
+    "height": 400,
+    "background": "snow",
     "projection": {
         "type": "equalEarth"
     },
@@ -22,7 +24,7 @@
                     "Cases",
                     "Deaths"
                 ],
-                "name": "Statistics: "
+                "name": "Dataset: "
             }
         }
     ],
@@ -125,7 +127,7 @@
                         "dy": {
                             "expr": "(datum.capital === 'Shah Alam' ? -3 : 0) || (datum.capital === 'Seremban' ? 3 : 0)"
                         },
-                        "fontSize": 8
+                        "fontSize": 10
                     },
                     "encoding": {
                         "text": {
@@ -136,5 +138,10 @@
                 }
             ]
         }
-    ]
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        }
+    }
 }

@@ -1,11 +1,29 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "",
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.1.0.json",
+    "title": "Detailed COVID-19 Trend in Each State",
     "width": "container",
+    "height": 300,
+    "background": "snow",
     "data": {
         "url": "https://raw.githubusercontent.com/ychu0045/Vis2/main/data/monthly_difference.csv"
     },
     "params": [
+        {
+            "name": "statistics_selection",
+            "value": "cases",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "cases",
+                    "deaths"
+                ],
+                "labels": [
+                    "Cases",
+                    "Deaths"
+                ],
+                "name": "Dataset: "
+            }
+        },
         {
             "name": "state_selection",
             "bind": {
@@ -49,22 +67,6 @@
                     "Putrajaya"
                 ],
                 "name": "State: "
-            }
-        },
-        {
-            "name": "statistics_selection",
-            "value": "cases",
-            "bind": {
-                "input": "select",
-                "options": [
-                    "cases",
-                    "deaths"
-                ],
-                "labels": [
-                    "Cases",
-                    "Deaths"
-                ],
-                "name": "Statistics: "
             }
         }
     ],
@@ -167,8 +169,8 @@
         {
             "mark": {
                 "type": "rule",
-                "xOffset": -11,
-                "x2Offset": 11
+                "xOffset": -18,
+                "x2Offset": 18
             },
             "encoding": {
                 "x2": {
@@ -185,7 +187,7 @@
                 "type": "text",
                 "baseline": "bottom",
                 "dy": -2,
-                "fontSize": 6
+                "fontSize": 10
             },
             "encoding": {
                 "y": {
@@ -213,7 +215,7 @@
                 "type": "text",
                 "baseline": "bottom",
                 "dy": -2,
-                "fontSize": 6
+                "fontSize": 10
             },
             "encoding": {
                 "y": {
@@ -230,5 +232,10 @@
                 }
             }
         }
-    ]
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        }
+    }
 }

@@ -3,7 +3,7 @@
 
 <head>
     <!--Google font-->
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Voces&display=swap" rel="stylesheet">
     <!--Pure-->
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
         integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
@@ -15,63 +15,131 @@
     <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
-    <title>COVID-19 Statistics in Malaysia</title>
+    <title>COVID-19 in Malaysia</title>
 </head>
 
 <body>
     <div class="page">
+        <div id="page-header" class="pure-g">
+            <div class="pure-u-1-1">
+                <div id="title">COVID-19 IN MALAYSIA</div>
+            </div>
+            <div class="pure-u-1-1">
+                <div id="subtitle">Statistics from January 2020 to September 2021</div>
+            </div>
+        </div>
         <div class="pure-g">
             <div class="pure-u-1-1">
-                <h1>COVID-19 Statistics in Malaysia</h1>
+                <div class="heading">
+                    <h1>Pandemic overview, where are we now?</h1>
+                </div>
             </div>
-        </div>
-        <div class="pure-g">
-            <div class="pure-u-1-3">
-                <div class="description-left">
-                    <h3>Running Total</h3>
-                    <p>This choropleth map visualises the running total number of confirmed cases and deaths in each state as of September 2021.</p>
-                </div>                
-            </div>
-            <div class="pure-u-2-3">
+            <div class="pure-u-1-1">
                 <div id="map" class="vis-container"></div>
             </div>
+            <div class="pure-u-1-1">
+                <div class="description">
+                    <p>As of September 2021, Malaysia has reported <b>2,245,695 confirmed cases</b> and <b>26,708 deaths</b> from COVID-19.
+                        Among all the states, <b>Selangor</b> is the worst hit in this pandemic.
+                        It has reported <b>677,664 confirmed cases</b> and <b>9,408 deaths</b> with an infection rate of 1,037 per 10,000 people.
+                    </p>
+                </div>
+            </div>
         </div>
         <div class="pure-g">
-            <div class="pure-u-2-3">
+            <div class="pure-u-1-1">
+                <div class="heading">
+                    <h1>How did the trend change overtime?</h1>
+                </div>
+            </div>
+            <div class="pure-u-1-1">
+                <div id="bubble" class="vis-container"></div>
+            </div>
+            <div class="pure-u-1-1">
+                <div class="tips">
+                    Tips: Click on the mark to highlight the trend of each state.
+                </div>
+            </div>
+            <div class="pure-u-1-1">
+                <div class="description">
+                    <p>Overall, both confirmed cases and deaths are <b>on the rise</b> in most of the states. 
+                        One of the reason is because of the Delta variant. 
+                        It is airborne and so the transmission is faster.
+                        The <b>first Delta</b> variant case was detected in <span style="color:#f7b6d2"><b>Sarawak</b></span> on <b>June 18, 2021</b>.
+                        <br>
+                        <br>Please use the following chart to view more details on the changes in each state. 
+                        Note that the yellow bar represents the total number reported in the last month, i.e., September 2021.
+                    </p>
+                </div>
+            </div>
+            <div class="pure-u-1-1">
                 <div id="waterfall" class="vis-container"></div>
             </div>
-            <div class="pure-u-1-3">
-                <div class="description-right">
-                    <h3>Monthly Difference</h3>
-                    <p>This waterfall chart visualises the monthly increment and decrement of confirmed cases and deaths in each state.</p>
-                </div>
-            </div>
         </div>
         <div class="pure-g">
-            <div class="pure-u-1-3">
-                <div class="description-left">
-                    <h3>States Ranking</h3>
-                    <p>This bumpchart visualises the states ranking based on the number of confirmed cases and deaths in each month.</p>
+            <div class="pure-u-1-1">
+                <div class="heading">
+                    <h1>How did the states rank in various aspects?</h1>
                 </div>
             </div>
-            <div class="pure-u-2-3">
+            <div class="pure-u-1-1">
                 <div id="bump" class="vis-container"></div>
             </div>
+            <div class="pure-u-1-1">
+                <div class="tips">
+                    Tips: Click on the legend or mark to highlight the trend of each state.
+                </div>
+            </div>
+            <div class="pure-u-1-1">
+                <div class="description">
+                    <p>The <b>top 3</b> states with the highest number of confirmed <b>cases</b> are: <span style="color:#7f7f7f"><b>Selangor</b></span>, <span style="color:#ffbb78"><b>Kuala Lumpur</b></span> and <span style="color:#e377c2"><b>Sabah</b></span>.
+                        <br>The <b>top 3</b> states with the highest number of <b>deaths</b> are: <span style="color:#7f7f7f"><b>Selangor</b></span>, <span style="color:#e377c2"><b>Sabah</b></span> and <span style="color:#1f77b4"><b>Johor</b></span>.
+                    </p>
+                </div>
+            </div>
+            <div class="pure-u-1-1">
+                <div id="bar" class="vis-container"></div>
+            </div>
+            <div class="pure-u-1-1">
+                <div class="tips">
+                    Tips: Click on the mark to highlight the statistics of each state.
+                </div>
+            </div>
+            <div class="pure-u-1-1">
+                <div class="description">
+                    <p>Recovery rate is calculated by dividing the total recovered cases by the total confirmed cases as of September 2021. 
+                        The <b>mean recovery rate</b> is <b>90.25%</b>. 
+                        Similarly, fatality rate is calculated by dividing the total deaths by the total confirmed cases as of September 2021. 
+                        The <b>mean fatality rate</b> is <b>1.13%</b>.
+                        <br>
+                        <br>Note that <span style="color:#8c564b"><b>Perlis</b></span> has reported the lowest number of confirmed cases and deaths most of the time, 
+                        but it has the <b>lowest recovery</b> rate and the <b>highest fatality</b> rate.
+                    </p>
+                </div>
+            </div>
         </div>
+        <div class="pure-g"><p></p></div>
         <div class="pure-g">
             <div id="authority" class="pure-u-1-1">
-                <p>This visualisation is created by Chua Yan Yan.</p>
-                <p>Data: <a href="https://github.com/MoH-Malaysia/covid19-public/tree/main/epidemic">Ministry of Health Malaysia</a>, <a href="https://github.com/CITF-Malaysia/citf-public/tree/main/static">COVID-19 Immunisation Task Force</a></p>
+                <p>Visualisation by Chua Yan Yan.<br>
+                    Data sources: <a href="https://github.com/MoH-Malaysia/covid19-public/tree/main/epidemic">Ministry
+                        of Health Malaysia</a>, <a
+                        href="https://github.com/CITF-Malaysia/citf-public/tree/main/static">COVID-19 Immunisation Task
+                        Force</a></p>
             </div>
         </div>
     </div>
     <script type="text/javascript">
         var vgmap = "js/idiom-map.json";
+        var vgbubble = "js/idiom-bubble.json";
         var vgwaterfall = "js/idiom-waterfall.json";
         var vgbump = "js/idiom-bump.json";
+        var vgbar = "js/idiom-bar.json";
         vegaEmbed("#map", vgmap).then(function (result) { }).catch(console.error);
+        vegaEmbed("#bubble", vgbubble).then(function (result) { }).catch(console.error);
         vegaEmbed("#waterfall", vgwaterfall).then(function (result) { }).catch(console.error);
         vegaEmbed("#bump", vgbump).then(function (result) { }).catch(console.error);
+        vegaEmbed("#bar", vgbar).then(function (result) { }).catch(console.error);
     </script>
 </body>
 

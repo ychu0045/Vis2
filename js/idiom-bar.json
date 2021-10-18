@@ -1,0 +1,145 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.1.0.json",
+    "background": "snow",
+    "data": {
+        "url": "https://raw.githubusercontent.com/ychu0045/Vis2/main/data/recoveries_deaths.csv"
+    },
+    "params": [
+        {
+            "name": "state_selection",
+            "select": {
+                "type": "point",
+                "on": "click",
+                "fields": [
+                    "state"
+                ]
+            }
+        }
+    ],
+    "transform": [
+        {
+            "calculate": "datum.recoveries / datum.total_cases * 100",
+            "as": "recovery_rate"
+        },
+        {
+            "calculate": "datum.deaths / datum.total_cases * 100",
+            "as": "fatality_rate"
+        }
+    ],
+    "hconcat": [
+        {
+            "title": "States Ranking based on Recovery Rate",
+            "width": 360,
+            "mark": {
+                "type": "bar",
+                "size": 5
+            },
+            "encoding": {
+                "x": {
+                    "field": "recovery_rate",
+                    "type": "quantitative",
+                    "title": "Recovery rate (%)"
+                },
+                "y": {
+                    "field": "state",
+                    "type": "nominal",
+                    "title": null,
+                    "sort": {
+                        "field": "recovery_rate",
+                        "op": "min",
+                        "order": "descending"
+                    }
+                },
+                "color": {
+                    "field": "state",
+                    "type": "nominal",
+                    "scale": {
+                        "scheme": "category20"
+                    },
+                    "legend": null
+                },
+                "opacity": {
+                    "condition": {
+                        "param": "state_selection",
+                        "value": 1.0
+                    },
+                    "value": 0.2
+                },
+                "tooltip": [
+                    {
+                        "field": "state",
+                        "type": "nominal",
+                        "title": "State"
+                    },
+                    {
+                        "field": "recovery_rate",
+                        "type": "quantitative",
+                        "title": "Recovery rate (%)",
+                        "format": ".2f"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "States Ranking based on Fatality Rate",
+            "width": 360,
+            "mark": {
+                "type": "bar",
+                "size": 5
+            },
+            "encoding": {
+                "x": {
+                    "field": "fatality_rate",
+                    "type": "quantitative",
+                    "title": "Fatality rate (%)"
+                },
+                "y": {
+                    "field": "state",
+                    "type": "nominal",
+                    "title": null,
+                    "sort": {
+                        "field": "fatality_rate",
+                        "op": "min",
+                        "order": "descending"
+                    }
+                },
+                "color": {
+                    "field": "state",
+                    "type": "nominal",
+                    "scale": {
+                        "scheme": "category20"
+                    },
+                    "legend": null
+                },
+                "opacity": {
+                    "condition": {
+                        "param": "state_selection",
+                        "value": 1.0
+                    },
+                    "value": 0.2
+                },
+                "tooltip": [
+                    {
+                        "field": "state",
+                        "type": "nominal",
+                        "title": "State"
+                    },
+                    {
+                        "field": "fatality_rate",
+                        "type": "quantitative",
+                        "title": "Fatality rate (%)",
+                        "format": ".2f"
+                    }
+                ]
+            }
+        }
+    ],
+    "config": {
+        "concat": {
+            "spacing": 50
+        },
+        "view": {
+            "stroke": null
+        }
+    }
+}
